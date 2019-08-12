@@ -14,7 +14,6 @@
 | 완료 | 진행중 | 원제목 | 원링크 | 번역제목 | 번역링크 | 
 | -- | -- | ------- | ---- | ------- | ---- |
 | <ul><li>- [ ] </li> | <ul><li>- [X] </li> | Understanding Fastai's fit_one_cycle method | [Link](https://iconof.com/1cycle-learning-rate-policy/) | 미정 | [링크](https://github.com/jehyunlee/texts/blob/master/1cycle-learning-rate-policy/text.md)
-| ㅁㄴㅇㄹㅁㄴㅇㄹ |
 
 ## 머신러닝/딥러닝 일반
 
