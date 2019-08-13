@@ -13,14 +13,14 @@
 
 | 완료 | 진행중 | 원제목 | 원링크 | 번역제목 | 번역링크 | 
 | -- | -- | ------- | ---- | ------- | ---- |
-| <ul><li>- [ ] </li> | <ul><li>- [X] </li> | Understanding Fastai's fit_one_cycle method | [Link](https://iconof.com/1cycle-learning-rate-policy/) | 미정 | [링크](https://github.com/jehyunlee/texts/blob/master/1cycle-learning-rate-policy/text.md)
+| <ul><li>- [ ] </li> | <ul><li>- [ ] </li> |  | [Link]() | 미정 | [링크]()
 
 ## 머신러닝/딥러닝 일반
 
 | 완료 | 진행중 | 원제목 | 원링크 | 번역제목 | 번역링크 | 
 | -- | -- | ------- | ---- | ------- | ---- |
 | <ul><li>- [X] </li> | <ul><li>- [ ] </li> | Understanding Fastai's fit_one_cycle method  | [Link](https://towardsdatascience.com/estimating-optimal-learning-rate-for-a-deep-neural-network-ce32f2556ce0) | Fast.ai의 fit_one_cycle method 이해하기 | [링크](https://github.com/jehyunlee/texts/blob/master/1cycle-learning-rate-policy/text.md)
-
+| -- | -- | ------- | ---- | ------- | ---- |
 | <ul><li>- [X] </li> | <ul><li>- [ ] </li> | Estimating an Optimal Learning Rate For a Deep Neural Network  | [Link](https://iconof.com/1cycle-learning-rate-policy/) | 심층신경망에 맞는 최적 학습률 평가 | [링크](https://github.com/jehyunlee/texts/blob/master/estimating_an_optimal_learning_rate_for_a_deep_neural_network/text.md)
 
 ## 유용한 툴
