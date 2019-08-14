@@ -9,7 +9,7 @@
   - 각 폴더에 번역하고자 하시는 글에 대한 Markdown 파일을 작성하셔서 PR 주시기 바랍니다.
   - 본 저장소에 Markdown을 남기는 것을 권장하지만, 개인 블로그에 글을 남기는것을 선호하실 수도 있습니다. 이 경우에는 README 파일의 "번역 링크" 란에, 개인 블로그 주소를 기입해 주시기 바랍니다.
 
-## fast.ai 코스 관련
+## fast.ai 코스 강의노트
 
 | 현황   | 원글                                                                                                                             | 번역글 |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -25,6 +25,14 @@
 | 미착수 | [More NLP and Columnar Data](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-10-6ff502b2db45)                       | 미정   |
 | 미착수 | [Embeddings](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-11-7564c3c18bbb)                                       | 미정   |
 | 미착수 | [Complete Rossmann, Ethical Issues](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-12-6c2512e005a3)                | 미정   |
+| 미착수 | [new fast.ai course: A Code-First Introduction to Natural Language Processing](https://www.fast.ai/2019/07/08/fastai-nlp/) | 미정  |
+
+## fast.ai 관련 일반/소식
+| 현황   | 원글                                                                                                                             | 번역글 |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 미착수 | [High Performance Numeric Programming with Swift: Explorations and Reflections](https://www.fast.ai/2019/01/10/swift-numerics/) | 미정 |
+| 미착수 | [fast.ai Embracing Swift for Deep Learning](https://www.fast.ai/2019/03/06/fastai-swift/) | 미정  |
+| 미착수 | [C++11, random distributions, and Swift](https://www.fast.ai/2019/01/13/swift-random/) | 미정  |
 
 ## 머신러닝/딥러닝 일반
 
@@ -38,3 +46,12 @@
 | 현황   | 원글                                                                                                     | 번역글 |
 | ------ | -------------------------------------------------------------------------------------------------------- | ------ |
 | 미착수 | [gi2ds - Google Image Search 2 Dataset](https://github.com/toffebjorkskog/ml-tools/blob/master/gi2ds.md) | 미정   |
+| 미착수 | [fastec2: AWS computer management for regular folks](https://www.fast.ai/2019/02/15/fastec2/) | 미정   |
+| 미착수 | [fastec2 script: Running and monitoring long-running tasks](https://www.fast.ai/2019/02/15/fastec2-script/) | 미정   |
+
+## 기타
+| 현황   | 원글                                                                                                     | 번역글 |
+| ------ | -------------------------------------------------------------------------------------------------------- | ------ |
+| 미착수 | [Advice for Better Blog Posts](https://www.fast.ai/2019/05/13/blogging-advice/) | 미정   |
+| 미착수 | [What You Need to Know Before Considering a PhD](https://www.fast.ai/2018/08/27/grad-school/) | 미정  |
+| 미착수 | [AI Ethics Resources](https://www.fast.ai/2018/09/24/ai-ethics-resources/) | 미정  |
