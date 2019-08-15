@@ -221,7 +221,7 @@ $ fe2 get-instance inst1 - wait-until-stopped
 $ fe2 change-type inst1 p3.8xlarge
 ```
 
-그리고나서, 인스턴스를 재시작 하고, 전과 동일한 방법으로 접속해볼 수 있다:
+그리고서, 인스턴스를 재시작하고, 전과 같은 방법으로 접속해볼 수 있다:
 
 ```
 $ fe2 start inst1
