@@ -20,7 +20,7 @@ AWS EC2는 매우 훌륭한 시스템이다. 누구든지 시간당 약간의 �
 - [Spot 인스턴스를 실행 해보기](#launching-a-spot-instance)
 - [대화형 REPL과 ssh API를 사용 해보기](#using-the-interactive-repl-and-ssh-api)
 
-나 스스로도 매우 평범한 사람이기 때문에, 이러한 툴을 작성하는 것이 좋을것이라고 생각했다. 그리고 그 툴은 [fastec2](https://github.com/fastai/fastec2/) 이다. 이 툴이 여러분들을 위한 것인가? 다음은 이 툴이 무엇을 간소화 하기 위해 디자인된 것인지에 대한 요약을 보여준다 (여기서의 `instance`란, 단순히 ‘AWS 컴퓨터’를 의미한다):
+나 자신도 매우 평범한 사람이기 때문에, 이러한 툴을 작성하는 것이 좋을 것이라고 생각했다. 그리고 그 툴은 [fastec2](https://github.com/fastai/fastec2/) 이다. 이 툴이 여러분들을 위한 것인가? 다음은 이 툴이 간소화하고자 하는것에 대한 요약을 보여준다 (여기에서 `instance`란, 단순히 ‘AWS상의 컴퓨터’를 의미한다):
 
 - 요청에 의한, 또는 따로잡아둔(spot) 인스턴스를 실행
 - 어떤 인스턴스들이 실행중인지 확인
