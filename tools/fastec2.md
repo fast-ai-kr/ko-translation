@@ -37,7 +37,7 @@ AWS EC2는 매우 훌륭한 시스템이다. 누구든지 시간당 약간의 �
 
 이 툴은 데이터분석, 데이터수집, 그리고 머신러닝 모델의 학습을 하고자 하는 사람들에게 가장 유용할 것이라고 예상한다. fastec2는 복잡한 네트워크 아키텍처에서의 거대한 서버 함대의 관리를 쉽게 하려고 디자인 된 것이 아니고, 애플리케이션 개발을 돕기 위한 것도 아니다. 이러한 것을 원한다면, [Terraform](https://www.terraform.io/) 또는 [Cloud Formation](https://aws.amazon.com/cloudformation/) 을 확인해 보길 권장한다.
 
-이 툴이 동작하는 방식을 확인하기 위해서 새로운 아마존 머신 이미지 (AMI)를 생성하고, 그 인스턴스로부터 AMI를 실행하고, 연결하는 완전한 방법을 알아보도록 한다. spot 인스턴스를 실행하기 위한 방법과 그 인스턴스에서 오랫동안-수행되는 스크립트를 실행하고, 스크립트의 결과를 수집하는 방법 또한 알아보게 될 것이다. 나는 여러분들이 이미 AWS 계정을 가지고 있고, ssh 를 이용하여 인스턴스로 연결하기 위한 기본내용을 알고 있다고 가정하고 진행할 것이다. fastec2의 여러가지 멋진 기능들은 [Fire](https://github.com/google/python-fire/), [Paramiko](http://www.paramiko.org/), [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) 와 같은 라이브러리에서 제공되고 있다. 이를 가능하게 해준 모든 분들께 감사를 드리는 바이다.
+이 툴이 동작하는 방식을 확인하기 위해서 새로운 아마존 머신 이미지(AMI)를 생성하고, 그 인스턴스로부터 AMI를 실행하고, 연결하는 완전한 방법을 알아보도록 한다. Spot 인스턴스를 실행하기 위한 방법과 그 인스턴스에서 오랫동안-수행되는 스크립트를 실행하고, 스크립트의 결과를 수집하는 방법 또한 알아보게 될 것이다. 나는 여러분들이 이미 AWS 계정을 가지고 있고, ssh를 이용하여 인스턴스로 연결하기 위한 기본내용을 알고 있다고 가정하고 진행할 것이다. fastec2의 여러 가지 멋진 기능들은 [Fire](https://github.com/google/python-fire/), [Paramiko](http://www.paramiko.org/), [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) 와 같은 라이브러리에서 제공되고 있다. 이를 가능하게 해준 모든 분께 감사를 드리는 바이다.
 
 <div id="overview"></div>
 
