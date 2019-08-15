@@ -1,5 +1,5 @@
 # gi2ds - Google Image Search 2 Dataset
-**gi2ds** 는 구글 이미지 검색에 기반하여 이미지 데이터셋을 생성할 때 도움을 줄 수 있도록 디자인 되었다. 이미지를 클릭함으로써 연관성이 적은 이미지를 포함시키거나 제외시킬 수 있게 해 준다. 이미지의 URL 목록은 우측 하단에 표시가 된다. 더 많은 이미지를 얻고 싶다면 화면을 아래로 스크롤링 해서, 더 많은 이미지를 불러오거나 `show more results` 버튼을 클릭한 후 계속해서 스크롤을 내리면 된다.
+**gi2ds** 는 구글 이미지 검색에 기반하여 이미지 데이터셋을 생성할 때 도움을 줄 수 있도록 디자인되었다. 이미지를 클릭함으로써 연관성이 적은 이미지를 포함하거나 제외할 수 있게 해 준다. 이미지의 URL 목록은 우측 하단에 표시가 된다. 더 많은 이미지를 얻고 싶다면 화면을 아래로 스크롤링해서, 더 많은 이미지를 불러오거나 `show more results` 버튼을 클릭한 후 계속해서 스크롤을 내리면 된다.
 
 ![gi2ds - Google Image Search to Dataset](https://github.com/toffebjorkskog/ml-tools/blob/master/images/gi2ds-usage.png?raw=true)
 
