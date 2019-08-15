@@ -4,7 +4,7 @@
 ![gi2ds - Google Image Search to Dataset](https://github.com/toffebjorkskog/ml-tools/blob/master/images/gi2ds-usage.png?raw=true)
 
 ## 사용을 시작해 보는법
-[아래쪽에 설명된 북마크](#bookmarklet) 을 사용하거나, 이미지 검색이 이뤄진 페이지에서, 브라우져의 자바스크립트 콘솔을 실행한 후 아래의 자바스크립트 코드를 붙여넣는 두 가지 방법이 있다.
+[아래쪽에 설명된 북마크릿(bookmarkelt)](#bookmarklet) 을 사용하거나, 이미지 검색이 이뤄진 페이지에서, 브라우져의 자바스크립트 콘솔을 실행한 후 아래의 자바스크립트 코드를 붙여넣는 두 가지 방법이 있다.
 
 ```javascript
 (function(e, s) {
