@@ -62,7 +62,7 @@
 | 미착수 | [Floydhub 작업재개](https://course.fast.ai/updage_floydhub.html) | 미정 |
 | 미착수 | [Cretle.ai 설정](https://course.fast.ai/start_crestle.html) | 미정 |
 | 미착수 | [Cretle.ai 작업재개](https://course.fast.ai/updage_crestle.html) | 미정 |
-| 미착수 | [Kaggle 설정](https://course.fast.ai/start_kaggle.html) | 미정 |
+| 완료 | [Kaggle 설정](https://course.fast.ai/start_kaggle.html) | [Kaggle 설정](./fastai-env/kaggle.md) |
 | 미착수 | [Kaggle 작업재개](https://course.fast.ai/updage_kaggle.html) | 미정 |
 | 미착수 | [easyaiforum.cn 설정](https://course.fast.ai/start_easyaiforum.html) | 미정 |
 | 미착수 | [easyaiforum.cn 작업재개](https://course.fast.ai/updage_easyaiforum.html) | 미정 |
