@@ -45,7 +45,7 @@
 
 | 현황   | 원글                                                                                                     | 번역글 |
 | ------ | -------------------------------------------------------------------------------------------------------- | ------ |
-| 미착수 | [gi2ds - Google Image Search 2 Dataset](https://github.com/toffebjorkskog/ml-tools/blob/master/gi2ds.md) | 미정   |
+| 완료 | [gi2ds - Google Image Search 2 Dataset](https://github.com/toffebjorkskog/ml-tools/blob/master/gi2ds.md) | [gi2ds - Google Image Search 2 Dataset](https://github.com/fast-ai-kr/ko-translation/blob/master/tools/gi2ds.md)   |
 | 미착수 | [fastec2: AWS computer management for regular folks](https://www.fast.ai/2019/02/15/fastec2/) | 미정   |
 | 미착수 | [fastec2 script: Running and monitoring long-running tasks](https://www.fast.ai/2019/02/15/fastec2-script/) | 미정   |
 
