@@ -9,6 +9,17 @@
   - 각 폴더에 번역하고자 하시는 글에 대한 Markdown 파일을 작성하셔서 PR 주시기 바랍니다.
   - 본 저장소에 Markdown을 남기는 것을 권장하지만, 개인 블로그에 글을 남기는것을 선호하실 수도 있습니다. 이 경우에는 README 파일의 "번역 링크" 란에, 개인 블로그 주소를 기입해 주시기 바랍니다.
 
+## 목차
+
+- [fast.ai 코스 강의노트](#fastai-course-note)
+- [fast.ai 관련 일반/소식](#fastai-common-news)
+- [fast.ai 사용 환경 관련](#fastai-environments)
+- [머신러닝/딥러닝 일반](#ml-dl-common)
+- [유용한 툴](#useful-tools)
+- [기타](#others)
+
+<div id="fastai-course-note"></div>
+
 ## fast.ai 코스 강의노트
 
 | 현황   | 원글                                                                                                                             | 번역글 |
@@ -27,12 +38,52 @@
 | 미착수 | [Complete Rossmann, Ethical Issues](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-12-6c2512e005a3)                | 미정   |
 | 미착수 | [new fast.ai course: A Code-First Introduction to Natural Language Processing](https://www.fast.ai/2019/07/08/fastai-nlp/) | 미정  |
 
+<div id="fastai-common-news"></div>
+
 ## fast.ai 관련 일반/소식
+
 | 현황   | 원글                                                                                                                             | 번역글 |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------- | ------ |
 | 미착수 | [High Performance Numeric Programming with Swift: Explorations and Reflections](https://www.fast.ai/2019/01/10/swift-numerics/) | 미정 |
 | 미착수 | [fast.ai Embracing Swift for Deep Learning](https://www.fast.ai/2019/03/06/fastai-swift/) | 미정  |
 | 미착수 | [C++11, random distributions, and Swift](https://www.fast.ai/2019/01/13/swift-random/) | 미정  |
+
+<div id="fastai-environments"></div>
+
+## fast.ai 사용 환경 관련
+
+| 현황   | 원글                                                                                                                             | 번역글 |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 미착수 | [Salamander 설정](https://course.fast.ai/start_salamander.html) | 미정 |
+| 미착수 | [Salamander 작업재개](https://course.fast.ai/updage_salamander.html) | 미정 |
+| 미착수 | [Gradient 설정](https://course.fast.ai/start_gradient.html) | 미정 |
+| 미착수 | [Gradient 작업재개](https://course.fast.ai/updage_gradient.html) | 미정 |
+| 미착수 | [Floydhub 설정](https://course.fast.ai/start_floydhub.html) | 미정 |
+| 미착수 | [Floydhub 작업재개](https://course.fast.ai/updage_floydhub.html) | 미정 |
+| 미착수 | [Cretle.ai 설정](https://course.fast.ai/start_crestle.html) | 미정 |
+| 미착수 | [Cretle.ai 작업재개](https://course.fast.ai/updage_crestle.html) | 미정 |
+| 미착수 | [Kaggle 설정](https://course.fast.ai/start_kaggle.html) | 미정 |
+| 미착수 | [Kaggle 작업재개](https://course.fast.ai/updage_kaggle.html) | 미정 |
+| 미착수 | [easyaiforum.cn 설정](https://course.fast.ai/start_easyaiforum.html) | 미정 |
+| 미착수 | [easyaiforum.cn 작업재개](https://course.fast.ai/updage_easyaiforum.html) | 미정 |
+| 미착수 | [GCP 설정](https://course.fast.ai/start_gcp.html) | 미정 |
+| 미착수 | [GCP 작업재개](https://course.fast.ai/updage_gcp.html) | 미정 |
+| 미착수 | [Azure 설정](https://course.fast.ai/start_azure.html) | 미정 |
+| 미착수 | [Azure 작업재개](https://course.fast.ai/updage_azure.html) | 미정 |
+| 미착수 | [Google Colab 설정](https://course.fast.ai/start_colab.html) | 미정 |
+| 미착수 | [Google Colab 작업재개](https://course.fast.ai/updage_colab.html) | 미정 |
+| 미착수 | [SageMaker 설정](https://course.fast.ai/start_sagemaker.html) | 미정 
+| 미착수 | [SageMaker 작업재개](https://course.fast.ai/updage_sagemaker.html) | 미정 |
+| 미착수 | [SageMaker 배포](https://course.fast.ai/deployment_amzn_sagemaker.html) | 미정 |
+| 미착수 | [AWS EC2 설정](https://course.fast.ai/start_aws.html) | 미정 |
+| 미착수 | [AWS EC2 작업재개](https://course.fast.ai/update_aws.html) | 미정 |
+| 미착수 | [Render 배포](https://course.fast.ai/deployment_render.html) | 미정 |
+| 미착수 | [Google App Engine 배포](https://course.fast.ai/deployment_google_app_engine.html) | 미정 | 
+| 미착수 | [AWS Lambda 배포](https://course.fast.ai/deployment_aws_lambda.html) | 미정 | 
+[ 미착수 | [AWS BeanStalk 배포](https://course.fast.ai/deployment_aws_beanstalk.html) | 미정 | 
+[ 미착수 | [Azure Function 배포](https://course.fast.ai/deployment_azure_functions.html) | 미정 |
+
+<div id="ml-dl-common"></div>
 
 ## 머신러닝/딥러닝 일반
 
@@ -40,6 +91,8 @@
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 완료 | [Understanding Fastai's fit_one_cycle method](https://iconof.com/1cycle-learning-rate-policy/)                                                                          | [Fast.ai의 fit_one_cycle method 이해하기](https://github.com/jehyunlee/texts/blob/master/1cycle-learning-rate-policy/text.md)                              |
 | 완료 | [Estimating an Optimal Learning Rate For a Deep Neural Network](https://towardsdatascience.com/estimating-optimal-learning-rate-for-a-deep-neural-network-ce32f2556ce0) | [심층신경망에 맞는 최적 학습률 평가](https://github.com/jehyunlee/texts/blob/master/estimating_an_optimal_learning_rate_for_a_deep_neural_network/text.md) |
+
+<div id="useful-tools"></div>
 
 ## 유용한 툴
 
@@ -49,7 +102,10 @@
 | 미착수 | [fastec2: AWS computer management for regular folks](https://www.fast.ai/2019/02/15/fastec2/) | 미정   |
 | 미착수 | [fastec2 script: Running and monitoring long-running tasks](https://www.fast.ai/2019/02/15/fastec2-script/) | 미정   |
 
+<div id="others"></div>
+
 ## 기타
+
 | 현황   | 원글                                                                                                     | 번역글 |
 | ------ | -------------------------------------------------------------------------------------------------------- | ------ |
 | 미착수 | [Advice for Better Blog Posts](https://www.fast.ai/2019/05/13/blogging-advice/) | 미정   |
