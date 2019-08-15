@@ -53,7 +53,7 @@ fastec2에 있는 모든 것들은 AWS 콘솔을 통해서, 그리고 공식 AWS
 
 ## 설치 및 설정
 
-Python3.6 또는 이후의 버전이 필요하다. 아직까지 Python3.6을 사용하고 있지 않다면, [Anaconda](https://www.anaconda.com/distribution/)를 설치하기를 강하게 권장한다. 그렇게 함으로써, 원하는 만큼의 여러가지 Python 버전에 대한 환경의 설치가 가능하고, 필요에 따라서 각기 다른 환경간 변경을 할 수 있다. fastec2을 설치하기 위해서:
+Python 3.6 또는 이후의 버전이 필요하다. 아직 Python 3.6을 사용하고 있지 않다면, [Anaconda](https://www.anaconda.com/distribution/)를 설치하기를 강하게 권장한다. 그렇게 함으로써, 원하는 만큼의 여러 가지 Python 버전에 대한 환경의 설치가 가능하고, 필요에 따라서 각기 다른 환경 간 변경을 할 수 있다. fastec2을 설치하기 위해서:
 
 ```
 pip install git+https://github.com/fastai/fastec2.git
