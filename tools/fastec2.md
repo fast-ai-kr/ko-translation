@@ -144,7 +144,7 @@ ubuntu@ip-172-31-13-138:~$ |
 
 > **확인사항:** 인스턴스를 AMI로 만들기 전, 다음의 내용을 인스턴스에서 수행했는지를 확인하기 바란다: `lsyncd`와 `tmux`의 설치, 비공개키의 복사.
 
-Jupyter Notebook으로 접속하길 원하거나, 인스턴스에서 실행중인 다른 서비스로 접속하고 싶다면, [ssh 터널링(tunneling)](https://solitum.net/an-illustrated-guide-to-ssh-tunnels/)을 사용할 수 있다. ssh 터널을 생성하기 위해서, `fe2 connect` 명령어에 추가적인 인자값이 필요하다. 이 인자값은 아래와 같이 단일 정수값(단일 포트번호) 또는 (여러 포트번호들)에 대한 배열이 될 수 있다:
+Jupyter Notebook으로 접속하길 원하거나, 인스턴스에서 실행 중인 다른 서비스로 접속하고 싶다면, [ssh 터널링(tunneling)](https://solitum.net/an-illustrated-guide-to-ssh-tunnels/)을 사용할 수 있다. ssh 터널을 생성하기 위해서, `fe2 connect` 명령어에 추가적인 인자값이 필요하다. 이 인자값은 아래와 같이 단일 정숫값(단일 포트번호) 또는 (여러 포트 번호들)에 대한 배열이 될 수 있다:
 
 ```
 # Jupyter Notebook으로만 터널링 (포트 8888에서 실행중)
