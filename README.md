@@ -80,8 +80,8 @@
 | 미착수 | [Render 배포](https://course.fast.ai/deployment_render.html) | 미정 |
 | 미착수 | [Google App Engine 배포](https://course.fast.ai/deployment_google_app_engine.html) | 미정 | 
 | 미착수 | [AWS Lambda 배포](https://course.fast.ai/deployment_aws_lambda.html) | 미정 | 
-[ 미착수 | [AWS BeanStalk 배포](https://course.fast.ai/deployment_aws_beanstalk.html) | 미정 | 
-[ 미착수 | [Azure Function 배포](https://course.fast.ai/deployment_azure_functions.html) | 미정 |
+| 미착수 | [AWS BeanStalk 배포](https://course.fast.ai/deployment_aws_beanstalk.html) | 미정 | 
+| 미착수 | [Azure Function 배포](https://course.fast.ai/deployment_azure_functions.html) | 미정 |
 
 <div id="ml-dl-common"></div>
 
