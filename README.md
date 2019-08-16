@@ -80,7 +80,7 @@
 | 미착수 | [Azure 작업재개](https://course.fast.ai/update_azure.html) | 미정 |
 | 미착수 | [Google Colab 설정](https://course.fast.ai/start_colab.html) | 미정 |
 | 미착수 | [Google Colab 작업재개](https://course.fast.ai/update_colab.html) | 미정 |
-| 미착수 | [SageMaker 설정](https://course.fast.ai/start_sagemaker.html) | 미정 
+| **착수** | [SageMaker 설정](https://course.fast.ai/start_sagemaker.html) | 미정 
 | 미착수 | [SageMaker 작업재개](https://course.fast.ai/update_sagemaker.html) | 미정 |
 | 미착수 | [SageMaker 배포](https://course.fast.ai/deployment_amzn_sagemaker.html) | 미정 |
 | 미착수 | [AWS EC2 설정](https://course.fast.ai/start_aws.html) | 미정 |
