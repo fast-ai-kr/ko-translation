@@ -53,6 +53,7 @@ EU (London) Region | eu-west-2 | [<img src="https://course.fast.ai/images/aws/cf
 ![스택 생성 완료](https://course.fast.ai/images/sagemaker/01.png)
 
 5. 좌측의 네비게이션바에서, 노트북 인스턴스를 선택합니다. 이곳으로부터, 노트북 인스턴스를 생성, 관리, 접근하는것이 가능합니다. fastai 라는 이름의 노트북 인스턴스의 상태가 _InService_ 인것을 아래의 스크린샷과 같이 확인 가능합니다.
+
 ![노트북 인스턴스 메뉴](https://course.fast.ai/images/sagemaker/17.png)
 
 6. "Open Jupyter" 링크를 클릭하여 Jupyter 웹 콘솔차을 엽니다.
