@@ -19,7 +19,7 @@
 ### 인스턴스를 시작하기 <span id="start_instance"></span>
 [Kaggle](https://www.kaggle.com/)로 로그인 하거나, 로그인된 세션이 있다면 해당 사이트로 이동합니다.
 
-![인스턴스를 시작하기](https://course.fast.ai/images/kaggle/homepage.png)
+![인스턴스 시작하기](https://course.fast.ai/images/kaggle/homepage.png)
 
 ### `Kernels 섹션`으로 이동하기 <span id="go_to_kernels"></span>
 `Kernels 섹션`을 클릭 합니다.
