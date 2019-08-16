@@ -12,15 +12,15 @@
 ## 목차
 
 - [fast.ai 코스 강의노트](#fastai-course-note)
+- [fast.ai가 사용된 프로젝트 소개](#fastai-projects)
 - [fast.ai 관련 일반/소식](#fastai-common-news)
 - [fast.ai 사용 환경 관련](#fastai-environments)
 - [머신러닝/딥러닝 일반](#ml-dl-common)
 - [유용한 툴](#useful-tools)
 - [기타](#others)
 
-<div id="fastai-course-note"></div>
 
-## fast.ai 코스 강의노트
+## fast.ai 코스 강의노트 <span id="fastai-course-note"></span>
 
 | 현황   | 원글                                                                                                                             | 번역글 |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -38,9 +38,18 @@
 | 미착수 | [Complete Rossmann, Ethical Issues](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-12-6c2512e005a3)                | 미정   |
 | 미착수 | [new fast.ai course: A Code-First Introduction to Natural Language Processing](https://www.fast.ai/2019/07/08/fastai-nlp/) | 미정  |
 
-<div id="fastai-common-news"></div>
 
-## fast.ai 관련 일반/소식
+## fast.ai가 사용된 프로젝트 소개 <span id="fastai-projects"></span>
+| 현황   | 원글                                                                                                                             | 번역글 |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 미착수 | [I Trained a Neural Network on Pet Adoption Photos, and It Was A Little Sad But Mostly Cute.](https://medium.com/@gdoteof/i-trained-a-neural-network-on-pet-adoption-photos-and-this-is-what-happened-21fb78202431) | 미정 |
+| 미착수 | [“Microsoft Malware Prediction” and it’s 9 million machines](https://www.linkedin.com/pulse/microsoft-malware-prediction-its-9-million-machines-james-dietle/) | 미정  |
+| 미착수 | [(1/2) Fastai, the new radiology tool](https://medium.com/@pierre_guillou/fastai-the-new-radiology-tool-76f02c1e25bf) | 미정  |
+| 미착수 | [(2/2) Fastai, the new radiology tool](https://medium.com/@pierre_guillou/2-2-fastai-the-new-radiology-tool-9f0b7db7bf91) | 미정  |
+| 미착수 | [How to Quickly Deploy a Computer Vision App](https://towardsdatascience.com/quickly-train-and-deploy-an-ai-computer-vision-app-d34ffa21fdd) | 미정 |
+
+
+## fast.ai 관련 일반/소식 <span id="fastai-common-news"></span>
 
 | 현황   | 원글                                                                                                                             | 번역글 |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -48,9 +57,8 @@
 | 미착수 | [fast.ai Embracing Swift for Deep Learning](https://www.fast.ai/2019/03/06/fastai-swift/) | 미정  |
 | 미착수 | [C++11, random distributions, and Swift](https://www.fast.ai/2019/01/13/swift-random/) | 미정  |
 
-<div id="fastai-environments"></div>
 
-## fast.ai 사용 환경 관련
+## fast.ai 사용 환경 관련 <span id="fastai-environments"></span>
 
 | 현황   | 원글                                                                                                                             | 번역글 |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -83,18 +91,16 @@
 | 미착수 | [AWS BeanStalk 배포](https://course.fast.ai/deployment_aws_beanstalk.html) | 미정 | 
 | 미착수 | [Azure Function 배포](https://course.fast.ai/deployment_azure_functions.html) | 미정 |
 
-<div id="ml-dl-common"></div>
 
-## 머신러닝/딥러닝 일반
+## 머신러닝/딥러닝 일반 <span id="ml-dl-common"></span>
 
 | 현황 | 원글                                                                                                                                                                    | 번역글                                                                                                                                                     |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 완료 | [Understanding Fastai's fit_one_cycle method](https://iconof.com/1cycle-learning-rate-policy/)                                                                          | [Fast.ai의 fit_one_cycle method 이해하기](https://github.com/jehyunlee/texts/blob/master/1cycle-learning-rate-policy/text.md)                              |
 | 완료 | [Estimating an Optimal Learning Rate For a Deep Neural Network](https://towardsdatascience.com/estimating-optimal-learning-rate-for-a-deep-neural-network-ce32f2556ce0) | [심층신경망에 맞는 최적 학습률 평가](https://github.com/jehyunlee/texts/blob/master/estimating_an_optimal_learning_rate_for_a_deep_neural_network/text.md) |
 
-<div id="useful-tools"></div>
 
-## 유용한 툴
+## 유용한 툴 <span id="useful-tools"></span>
 
 | 현황   | 원글                                                                                                     | 번역글 |
 | ------ | -------------------------------------------------------------------------------------------------------- | ------ |
@@ -102,9 +108,8 @@
 | 완료 | [fastec2: AWS computer management for regular folks](https://www.fast.ai/2019/02/15/fastec2/) | [fastec2: 평범한 사람들을 위한 AWS 컴퓨터 관리](https://github.com/fast-ai-kr/ko-translation/blob/master/tools/fastec2.md)   |
 | 미착수 | [fastec2 script: Running and monitoring long-running tasks](https://www.fast.ai/2019/02/15/fastec2-script/) | 미정   |
 
-<div id="others"></div>
 
-## 기타
+## 기타 <span id="others"></span>
 
 | 현황   | 원글                                                                                                     | 번역글 |
 | ------ | -------------------------------------------------------------------------------------------------------- | ------ |
