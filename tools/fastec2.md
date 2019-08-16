@@ -175,7 +175,7 @@ $ fe2 get-ami base - state
 pending
 ```
 
-(나중에 보게되겠지만, 우리가 앞서본 fastec2의 기능을 호출하는 메소드를 사용하고 있다.)
+(나중에 보게 되겠지만, 우리가 앞서본 fastec2의 기능을 호출하는 메소드를 사용하고 있다.)
 
 <div id="launching-and-connecting-to-your-instance"></div>
 
