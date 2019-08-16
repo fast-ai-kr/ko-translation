@@ -36,4 +36,4 @@
 
 커널을 이용한 작업을 완료하였으면, `Dashboard` 탭으로 이동하여, `Stop` 버튼을 클릭해서 커널 인스턴스를 정지할 수 있습니다.
 
-![인스턴스를 정지 시키기](https://course.fast.ai/images/kaggle/stop.png)
+![인스턴스 정지하기](https://course.fast.ai/images/kaggle/stop.png)
