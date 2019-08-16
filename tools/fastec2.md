@@ -198,7 +198,7 @@ Usage: fe2 launch NAME AMI DISKSIZE INSTANCETYPE [KEYNAME] [SECGROUPNAME] [IOPS]
          [--keyname KEYNAME] [--secgroupname SECGROUPNAME] [--iops IOPS] [--spot SPOT]
 ```
 
-여러분만의 AMI로부터 첫 번째 인스턴스를 생성 가능 했음을 축하한다! 앞서 보여준 `fe2 launch` 명령어를 반복해서 사용하되, 다른 이름으로 여러개의 인스턴스를 생성할 수 있을 것이다. 그렇게 해서, 각 인스턴스에 대해서 `fe2 connect <인스턴스_이름>` 명령으로 ssh 접속이 가능하다. 인스턴스를 멈추기 위해서는, 인스턴스내 터미널에서 아래의 명령을 입력할 수 있다:
+여러분만의 AMI로부터 첫 번째 인스턴스를 생성 가능했음을 축하한다! 앞서 보여준 `fe2 launch` 명령어를 반복해서 사용하되, 다른 이름으로 여러 개의 인스턴스를 생성할 수 있을 것이다. 그렇게 해서, 각 인스턴스에 대해서 `fe2 connect <인스턴스_이름>` 명령으로 ssh 접속이 가능하다. 인스턴스를 멈추기 위해서는, 인스턴스내 터미널에서 아래의 명령을 입력할 수 있다:
 
 ```
 sudo shutdown -h now
