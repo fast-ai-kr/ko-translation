@@ -16,7 +16,7 @@
 
 ## 단계별 가이드 <span id="step_by_step"></span>
 
-### 인스턴스를 시작하기 <span id="start_instance"></span>
+### 인스턴스 시작하기 <span id="start_instance"></span>
 [Kaggle](https://www.kaggle.com/)로 로그인 하거나, 로그인된 세션이 있다면 해당 사이트로 이동합니다.
 
 ![인스턴스 시작하기](https://course.fast.ai/images/kaggle/homepage.png)
