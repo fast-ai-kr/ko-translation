@@ -70,7 +70,7 @@
 | 미착수 | [Floydhub 작업재개](https://course.fast.ai/updage_floydhub.html) | 미정 |
 | 미착수 | [Cretle.ai 설정](https://course.fast.ai/start_crestle.html) | 미정 |
 | 미착수 | [Cretle.ai 작업재개](https://course.fast.ai/updage_crestle.html) | 미정 |
-| 완료 | [Kaggle 설정](https://course.fast.ai/start_kaggle.html) | [Kaggle 설정](./fastai-env/kaggle.md) |
+| **완료** | [Kaggle 설정](https://course.fast.ai/start_kaggle.html) | [Kaggle 설정](./fastai-env/kaggle.md) |
 | 미착수 | [Kaggle 작업재개](https://course.fast.ai/updage_kaggle.html) | 미정 |
 | 미착수 | [easyaiforum.cn 설정](https://course.fast.ai/start_easyaiforum.html) | 미정 |
 | 미착수 | [easyaiforum.cn 작업재개](https://course.fast.ai/updage_easyaiforum.html) | 미정 |
@@ -96,16 +96,16 @@
 
 | 현황 | 원글                                                                                                                                                                    | 번역글                                                                                                                                                     |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 완료 | [Understanding Fastai's fit_one_cycle method](https://iconof.com/1cycle-learning-rate-policy/)                                                                          | [Fast.ai의 fit_one_cycle method 이해하기](https://github.com/jehyunlee/texts/blob/master/1cycle-learning-rate-policy/text.md)                              |
-| 완료 | [Estimating an Optimal Learning Rate For a Deep Neural Network](https://towardsdatascience.com/estimating-optimal-learning-rate-for-a-deep-neural-network-ce32f2556ce0) | [심층신경망에 맞는 최적 학습률 평가](https://github.com/jehyunlee/texts/blob/master/estimating_an_optimal_learning_rate_for_a_deep_neural_network/text.md) |
+| **완료** | [Understanding Fastai's fit_one_cycle method](https://iconof.com/1cycle-learning-rate-policy/)                                                                          | [Fast.ai의 fit_one_cycle method 이해하기](https://github.com/jehyunlee/texts/blob/master/1cycle-learning-rate-policy/text.md)                              |
+| **완료** | [Estimating an Optimal Learning Rate For a Deep Neural Network](https://towardsdatascience.com/estimating-optimal-learning-rate-for-a-deep-neural-network-ce32f2556ce0) | [심층신경망에 맞는 최적 학습률 평가](https://github.com/jehyunlee/texts/blob/master/estimating_an_optimal_learning_rate_for_a_deep_neural_network/text.md) |
 
 
 ## 유용한 툴 <span id="useful-tools"></span>
 
 | 현황   | 원글                                                                                                     | 번역글 |
 | ------ | -------------------------------------------------------------------------------------------------------- | ------ |
-| 완료 | [gi2ds - Google Image Search 2 Dataset](https://github.com/toffebjorkskog/ml-tools/blob/master/gi2ds.md) | [gi2ds - Google Image Search 2 Dataset](https://github.com/fast-ai-kr/ko-translation/blob/master/tools/gi2ds.md)   |
-| 완료 | [fastec2: AWS computer management for regular folks](https://www.fast.ai/2019/02/15/fastec2/) | [fastec2: 평범한 사람들을 위한 AWS 컴퓨터 관리](https://github.com/fast-ai-kr/ko-translation/blob/master/tools/fastec2.md)   |
+| **완료** | [gi2ds - Google Image Search 2 Dataset](https://github.com/toffebjorkskog/ml-tools/blob/master/gi2ds.md) | [gi2ds - Google Image Search 2 Dataset](https://github.com/fast-ai-kr/ko-translation/blob/master/tools/gi2ds.md)   |
+| **완료** | [fastec2: AWS computer management for regular folks](https://www.fast.ai/2019/02/15/fastec2/) | [fastec2: 평범한 사람들을 위한 AWS 컴퓨터 관리](https://github.com/fast-ai-kr/ko-translation/blob/master/tools/fastec2.md)   |
 | 미착수 | [fastec2 script: Running and monitoring long-running tasks](https://www.fast.ai/2019/02/15/fastec2-script/) | 미정   |
 
 
