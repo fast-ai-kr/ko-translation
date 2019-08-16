@@ -60,6 +60,7 @@ EU (London) Region | eu-west-2 | [<img src="https://course.fast.ai/images/aws/cf
 
 ### 인스턴스 종료하기 <span id="shutdown_instance"></span>
 - 인스턴스를 사용한 작업이 완료되면, 노트북이 열려 있는 탭을 닫습니다. 그리곤, Stop 버튼을 을 누르는것을 꼭 기어하시기 바랍니다! 만약 Stop 버튼을 누르지 않는다면, Stop 버튼이 눌러질때 까지 비용이 계속해서 발생하게 됩니다.
+
 ![Stop 버튼](https://course.fast.ai/images/sagemaker/23.png)
 다시 노트북을 실행하고 싶다면, 코스 또는 fastai 라이브러리를 업데이트한 후 [SageMaker 재개하기](./sagemaker_update.md) 페이지로 가보시기 바랍니다.
 
