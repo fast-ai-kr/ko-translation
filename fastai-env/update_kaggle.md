@@ -2,10 +2,10 @@
 
 ## 목차
 - [단계별 가이드](#step_by_step)
-  - [인스턴스를 시작하기](#start_instance)
+  - [인스턴스 시작하기](#start_instance)
   - [`Kernels 섹션`으로 이동하기](#go_to_kernels)
   - [`Your Work` 탭을 클릭하기](#click_work_tab)
-  - [인스턴스를 정지하기](#stop_instance)
+  - [인스턴스 정지하기](#stop_instance)
 
 노트북으로 돌아가서, 작업을 재개하기 위한 기본적인 단계는 다음과 같습니다:
 
