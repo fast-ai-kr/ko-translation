@@ -49,6 +49,7 @@ EU (London) Region | eu-west-2 | [<img src="https://course.fast.ai/images/aws/cf
 ![스택 생성](https://course.fast.ai/images/sagemaker/create_stack.png)
 
 4. 아래와 같은 생성된 스택을 보여주는 CloudFormation 페이지가 나타날 것입니다. 스택이 **CREATE_COMPLETE** 상태가 되고나면, AWS 웹 콘솔을 열고 상단 바에 있는 Services를 클릭하여 'sagemaker'를 타이핑합니다. 그러고나면, Amazon SageMaker를 클릭합니다.
+
 ![스택 생성 완료](https://course.fast.ai/images/sagemaker/01.png)
 
 5. 좌측의 네비게이션바에서, 노트북 인스턴스를 선택합니다. 이곳으로부터, 노트북 인스턴스를 생성, 관리, 접근하는것이 가능합니다. fastai 라는 이름의 노트북 인스턴스의 상태가 _InService_ 인것을 아래의 스크린샷과 같이 확인 가능합니다.
