@@ -55,22 +55,22 @@ fastec2에 있는 모든 것들은 AWS 콘솔을 통해서, 그리고 공식 AWS
 
 Python 3.6 또는 이후의 버전이 필요하다. 아직 Python 3.6을 사용하고 있지 않다면, [Anaconda](https://www.anaconda.com/distribution/)를 설치하기를 강하게 권장한다. 그렇게 함으로써, 원하는 만큼의 여러 가지 Python 버전에 대한 환경의 설치가 가능하고, 필요에 따라서 각기 다른 환경 간 변경을 할 수 있다. fastec2을 설치하기 위해서:
 
-```
-pip install git+https://github.com/fastai/fastec2.git
+```console
+$ pip install git+https://github.com/fastai/fastec2.git
 ```
 
 셸에서 <kbd>Tab</kbd> 키-자동완성을 설치하면 약간의 시간이 절약될 수도 있다. [README](https://github.com/fastai/fastec2/blob/master/README.md)를 확인해 보면, <kbd>Tab</kbd> 키 자동완성 설치에 대한 방법을 알 수 있을 것이다. 설치가 완료되면, <kbd>Tab</kbd> 키를 언제든지 눌러서 명령어를 완성하거나, 한 번 더 <kbd>Tab</kbd> 키를 눌러서 가능한 다른 명령을 확인해 볼 수도 있다.
 
 fastec2은 작업의 수행을 위해서 [AWS CLI](https://aws.amazon.com/cli/)와의 인터페이스로, Python을 사용한다. 따라서, 이 부분을 설정해 줘야 한다. CLI는 리전(Region)에 대한 이름 대신, 코드를 사용한다. 사용하고자 하는 지역에 대한 리전코드를 알아내는 부분을 fastec2이 도와줄 수 있다. fastec2 애플리케이션을 실행하기 위해서, fe2 를 타이핑하고, 이어서 명령어 이름과 필요한 인자값을 나열한다. `region` 이라는 명령어는 사용자가 입력한 (대소문자가 구분되는) 문자열에 일치하는 가장 첫 번째 리전코드를 출력해 준다. 예를 들어서 (`$`를 사용하여 여러분이 타이핑하는 명령 줄을 표현하고 있고, `$`이 없는 줄은 응답을 표시하고 있다):
 
-```
+```console
 $ fe2 region Ohio
 us-east-2
 ```
 
 이제 리전코드를 가지고 있으니, 이를 이용해서 AWS CLI를 설정할 수 있다:
 
-```
+```console
 $ aws configure
 AWS Access Key ID: XXX
 AWS Secret Access Key: XXX
@@ -91,14 +91,14 @@ AWS에 대한 Access Key를 얻어오는 내용을 포함한, 더 많은 정보�
 
 베이스 이미지를 생성하기 위해서, 리눅스 배포본을 포함하는 이미 존재하는 AMI를 가지고 시작해야 할 것이다. 여러분이 이미 선호하는 AMI를 가지고 있다면, 그것을 사용해도 좋다. 그렇지 않다면, 가장 최신의 안정화된 버전의 Ubuntu 이미지의 사용을 권장한다. 최신의 Ubuntu에 대한 AMI ID를 알고 싶다면, 다음과 같이 타이핑해볼 수 있다:
 
-```
+```console
 $ fe2 get-ami - id
 ami-0c55b159cbfafe1f0
 ```
 
 위의 명령은 fastec2의 강력한 기능을 보여준다: "`get-`" 으로 시작하는 모든 명령어는 AWS 객체를 반환하는데, 이 객체에 대한 어떠한 속성(property)이나 메소드(method)를 호출하는 것도 가능하다 (이 각 명령어는 `get-` 접두어를 사용하지 않는 버전으로도 존재하는데, 이 버전은 객체를 반환하는 것 대신 객체에 대한 간략한 요약정보를 출력해 준다). 위에서 보인 것 처럼 메소드나 속성의 이름을 하이픈(-) 다음에 타이핑해 보자. 이 경우에, `get-ami` 에 의해 반환된 AMI 객체의 `id` 라는 속성을 가져오고 있다 (id의 값은 디폴트로 가장 최신의 안정화된 버전의 Ubuntu 이미지에 대한 것이다; 다른 AMI에 대한 예제는 아랫부분을 참고하길 바란다). 속성과 메소드의 목록을 확인하고 싶으면, 단순히 속성이나 메소드의 이름을 입력하지 않으면 된다:
 
-```
+```console
 $ fe2 get-ami -
 
 Usage:           fe2 get-ami
@@ -111,7 +111,7 @@ Usage:           fe2 get-ami
 
 그러면 이제는 인스턴스를 실행할 수 있다. 아래의 명령어를 사용하면 새로운 "요청에 의한" Linux 인스턴스를 생성하고, (약 2분가량 소요된 후) 생성이 완료되면 이름, ID, 상태, IP 주소를 출력한다. 이 명령어는 반환하기 전, ssh로 새로운 인스턴스에 접근 가능할 때까지 기다린다.
 
-```
+```console
 $ fe2 launch base ami-0c55b159cbfafe1f0 50 m5.xlarge
 base (i-00c7f2f81a841b525 running): 18.216.25.57
 ```
@@ -119,7 +119,7 @@ base (i-00c7f2f81a841b525 running): 18.216.25.57
 
 fe2의 `launch` 명령어는 최소한 4개의 파라미터를 요구한다: 생성하고자 하는 인스턴스의 이름, 사용하고자 하는 AMI (이름이나 ID 모두 가능하다, 위 예제에서는 앞서 얻어와 진 AMI ID를 사용하였다), 생성하고자 하는 디스크의 크기(GB), 인스턴스의 종류. AWS 페이지를 통해서, 가능한 다른 인스턴스와 가격을 확인할 수 있다, 서로 다른 인스턴스의 가격을 확인하기 위해서는 아래의 `price-demand` 명령을 사용할 수도 있다 (m5를 관심 있는 인스턴스 시리즈로 교체해 보자; 현재로선, US 가격만이 표시되어 있다. 그러나, 그 가격들은 정확하지 않거나 최신의 정보가 아닐 수 있다. 따라서, 전체 가격 리스트를 위해서는 AWS 웹사이트를 방문하는 것이 바람직하다).
 
-```
+```console
 $ fe2 price-demand m5
 ["m5.large", 0.096]
 ["m5.metal", 4.608]
@@ -132,7 +132,7 @@ $ fe2 price-demand m5
 
 인스턴스가 실행 중 이라면, 아래의 명령으로 해당 인스턴스로 ssh 접속이 가능하다:
 
-```
+```console
 $ fe2 connect base
 Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
 
@@ -147,7 +147,7 @@ ubuntu@ip-172-31-13-138:~$ |
 
 Jupyter Notebook으로 접속하길 원하거나, 인스턴스에서 실행 중인 다른 서비스로 접속하고 싶다면, [ssh 터널링(tunneling)](https://solitum.net/an-illustrated-guide-to-ssh-tunnels/)을 사용할 수 있다. ssh 터널을 생성하기 위해서, `fe2 connect` 명령어에 추가적인 인자값이 필요하다. 이 인자값은 아래와 같이 단일 정숫값(단일 포트번호) 또는 (여러 포트 번호들)에 대한 배열이 될 수 있다:
 
-```
+```console
 # Jupyter Notebook으로만 터널링 (포트 8888에서 실행중)
 fe2 connect od1 8888
 
@@ -163,14 +163,14 @@ fe2 connect od1 [8888,8008]
 
 베이스 인스턴스에 대한 설정이 완료되었다면, 이에 대한 여러분만의 AMI를 생성할 수 있다:
 
-```
+```console
 $ fe2 freeze base
 ami-01b7ceef9767a163a
 ```
 
 여기서 등장하는 `freeze`는 명령어이고, `base`는 인자값이다. `base`라는 이름을 AMI로써 "결빙" 하고자 하는, 여러분이 원하는 이름으로 교체할 수 있다. 이 과정에서, 인스턴스는 재시작될 것이기 때문에, 열려있는 문서 등이 저장되어 있음을 확인하는 등 인스턴스가 재시작되어도 OK인지를 체크해야 한다. 작업 완료까지 약 15분 정도의 시간이 소요된다 (수백 GB급의 큰 디스크의 경우는 수 시간이 소요된다). 작업 현황을 확인해보기 위해서, AWS 콘솔의 AMI 섹션을 살펴보거나, 다음의 명령어를 수행해 볼 수 있다 (아직 이미지를 생성 중인 것에 대하여 `pending`을 출력해서 보여준다):
 
-```
+```console
 $ fe2 get-ami base - state
 pending
 ```
@@ -183,14 +183,14 @@ pending
 
 AMI를 생성하는 것 까지 성공하였다. 그러면 그 AMI 템플릿을 사용해서 새로운 인스턴스를 실행해 볼 수 있다. 아래처럼 새로운 인스턴스가 생성되기까지 약 2분 정도의 시간이 소요된다:
 
-```
+```console
 $ fe2 launch inst1 base 80 m5.large
 inst1 (i-0f5a3b544274c645f running): 18.191.111.211
 ```
 
 새로운 인스턴스를 `inst1` 이라는 이름을 부여하고, 앞서 생성한 `base` AMI가 사용된다. 보면 알 수 있듯이 디스크의 크기와 인스턴스의 종류는 AMI를 생성하던 때와 같을 필요가 없다 (다만, 디스크의 크기는 생성 당시의 것 보다 작아질 수는 없다). `launch` 명령어에 대한 모든 가능한 옵션을 확인해볼 수 있다. `iops`와 `spot` 파라미터를 어떻게 사용해야 하는지는 다음 장을 통해서 알게 될 것이다:
 
-```
+```console
 $ fe2 launch -- --help
 
 Usage: fe2 launch NAME AMI DISKSIZE INSTANCETYPE [KEYNAME] [SECGROUPNAME] [IOPS] [SPOT]
@@ -200,31 +200,31 @@ Usage: fe2 launch NAME AMI DISKSIZE INSTANCETYPE [KEYNAME] [SECGROUPNAME] [IOPS]
 
 여러분만의 AMI로부터 첫 번째 인스턴스를 생성 가능했음을 축하한다! 앞서 보여준 `fe2 launch` 명령어를 반복해서 사용하되, 다른 이름으로 여러 개의 인스턴스를 생성할 수 있을 것이다. 그렇게 해서, 각 인스턴스에 대해서 `fe2 connect <인스턴스_이름>` 명령으로 ssh 접속이 가능하다. 인스턴스를 멈추기 위해서는, 인스턴스내 터미널에서 아래의 명령을 입력할 수 있다:
 
-```
-sudo shutdown -h now
+```console
+$ sudo shutdown -h now
 ```
 
 또는 다른 대안으로, 로컬 PC의 터미널에 아래의 명령을 입력할 수도 있다 (inst1을 실제 인스턴스의 이름으로 바꿔야 한다):
 
-```
-fe2 stop inst1
+```console
+$ fe2 stop inst1
 ```
 
 위 명령어에서 `stop`을 `terminate`로 교체하면, 인스턴스를 종료시키는 것이 가능하다 (예를 들어, 종료시킨다는 것은 인스턴스를 파괴하고, 인스턴스내 모든 데이터를 삭제하는 행동을 의미한다(디폴트). fastec2 또한 `name` 태그를 삭제해서, 즉시 재사용할 수 있도록 조치하게 된다). 인스턴스가 멈출 때 까지 fastec2가 기다려주길 원한다면, 다음의 명령을 사용해 볼 수 있다 (그렇지 않다면, 모든 일은 백그라운드에서 자동으로 수행된다):
 
-```
+```console
 $ fe2 get-instance inst1 - wait-until-stopped
 ```
 
 다음의 명령어는 매우 편리한 기능을 보여준다. 인스턴스를 멈추고 나서, 다른 종류로 변경하는 것이 가능하다! 즉, 초기 프로토타이핑을 저렴한 인스턴스에 수행하고, 준비되었을 때 매우 빠른 머신에서 거대한 데이터에 대한 분석을 수행하는 것이 가능하다는 것이다.
 
-```
+```console
 $ fe2 change-type inst1 p3.8xlarge
 ```
 
 그리고서, 인스턴스를 재시작하고, 전과 같은 방법으로 접속해볼 수 있다:
 
-```
+```console
 $ fe2 start inst1
 inst1 (i-0f5a3b544274c645f running): 52.14.245.85
 
@@ -234,7 +234,7 @@ Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
 
 이 명령을 사용해서 이것저것 시도하다 보면, 무엇을 생성했었고, 현재 실제 실행 중인 인스턴스는 무엇이 있는지 파악이 어려울 수도 있다. 이때, 인스턴스의 리스트를 알아내기 위해서, 간편하게 `instances` 라는 명령을 수행해볼 수 있다.
 
-```
+```console
 $ fe2 instances
 spot1 (i-0b39947b710d05337 running): 3.17.155.171
 inst1 (i-0f5a3b544274c645f stopped): No public IP
@@ -244,7 +244,7 @@ od1 (i-0a1b47f88993b2bba stopped): No public IP
 
 "No public IP"라고 표시된 인스턴스는 인스턴스가 실행될 때 자동으로 공용 IP를 취득하게 된다. 일반적으로, 인스턴스의 이름으로 `fe2 connect` 명령어를 이용하여 접속하기 때문에, IP가 무엇인지 딱히 신경 쓸 필요는 없다. 다만, 필요하다면 fastec2를 사용해서 IP를 알아내는 것이 항상 가능하다는 점을 알아두길 바란다:
 
-```
+```console
 $ fe2 get-instance base - public-ip-address
 18.216.25.57
 ```
@@ -255,7 +255,7 @@ $ fe2 get-instance base - public-ip-address
 
 Spot 인스턴스는 요청에 의한 인스턴스보다 약 70% 이상 저렴하다. 하지만, Spot 인스턴스는 언제든지 멈춰질 수 있으며, 항상 가용상태가 아닐 수도 있으며, root 볼륨에 있는 모든 데이터는 인스턴스가 멈춰지는 순간 삭제된다 (사실, 이 인스턴스의 종류는 종료만 될 수 있다. 멈추고, 나중에 재시작할 수 없다). Spot 인스턴스의 가격은 시간대, 인스턴스의 종류, 리전의 종류에 따라서 다르다. 특정 그룹 (여기서는 `p3` 종류를 예로 든다)의 인스턴스들에 대한 지난 3일간의 가격을 확인하기 위해서, 아래 명령어의 사용이 가능하다:
 
-```
+```console
 $ fe2 price-hist p3
 Timestamp      2019-02-13  2019-02-14  2019-02-15
 InstanceType
@@ -267,7 +267,7 @@ p3dn.24xlarge         NaN         NaN         NaN
 
 이를 요청에 의한 인스턴스 가격과 비교해 보자:
 
-```
+```console
 $ fe2 price-demand p3
 ["p3.2xlarge", 3.06]
 ["p3.8xlarge", 12.24]
@@ -281,7 +281,7 @@ $ fe2 price-demand p3
 
 Spot 인스턴스를 실행하기 위해서, 단순히 `--spot` 을 `launch` 명령어에 추가하면 된다:
 
-```
+```console
 $ fe2 launch spot1 base 80 m5.large --spot
 spot1 (i-0b39947b710d05337 running): 3.17.155.171
 ```
@@ -306,10 +306,11 @@ spot1 (i-0b39947b710d05337 running): 3.17.155.171
 
 fastec2 API를 대화형으로 샆펴보고 싶다면, 가장 쉬운 방법은 `fe2 i`를 사용해서 REPL을 실행하는 것이다 (추가적으로 리전이름의 일부, 또는 리전 ID를 붙여넣을 수도 있다). `e`라고 불려지게 되는 fastec2.EC2 객체가 자동으로 생성된다. `e`를 타이핑 해보자. 그리고 `Tab` 키를 눌러서, 가능한 모든 옵션을 확인해 보자. IPython은 smart autocall mode에서 시작되게 된다. 즉, 메소드 실행을 위해서 괄호를 타이핑 하는것 조차 필요 없게 될 수 있다는 것이다. 다음은 그 예를 보여준다:
 
-```
+```console
 $ fe2 i Ohio
 IPython 6.1.0 -- An enhanced Interactive Python. Type '?' for help.
-
+```
+```python
 In [1]: e.instances
 inst1 (i-0f5a3b544274c645f m5.large running): 18.222.175.103
 base (i-00c7f2f81a841b525 m5.xlarge stopped): No public IP
