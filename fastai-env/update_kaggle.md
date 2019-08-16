@@ -21,8 +21,8 @@
 
 ![인스턴스 시작하기](https://course.fast.ai/images/kaggle/homepage.png)
 
-### `Kernels 섹션`으로 이동하기 <span id="go_to_kernels"></span>
-`Kernels 섹션`을 클릭 합니다.
+### `Kernels` 섹션으로 이동하기 <span id="go_to_kernels"></span>
+`Kernels` 섹션을 클릭 합니다.
 
 ![커널 섹션으로 이동하기](https://course.fast.ai/images/kaggle/your_work.png)
 
