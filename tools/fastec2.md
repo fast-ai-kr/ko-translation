@@ -204,7 +204,7 @@ Usage: fe2 launch NAME AMI DISKSIZE INSTANCETYPE [KEYNAME] [SECGROUPNAME] [IOPS]
 sudo shutdown -h now
 ```
 
-또는 다른 대안으로, 로컬 PC의 터미널에 아래의 명령을 입력할 수도 있다 (inst1을 실제 인스턴스의 이름으로 바꿔야한다): 
+또는 다른 대안으로, 로컬 PC의 터미널에 아래의 명령을 입력할 수도 있다 (inst1을 실제 인스턴스의 이름으로 바꿔야 한다):
 
 ```
 fe2 stop inst1
