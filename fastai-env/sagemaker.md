@@ -5,7 +5,7 @@
 - [설정하기](#setup)
   - [SageMaker 노트북 인스턴스 생성하기](#create_sagemaker_notebook)
   - [인스턴스 종료하기](#shutdown_instance)
-- [설치시 발생하는 문제 트러블슈팅 하기](#troubleshooting)
+- [설치시 발생하는 문제 해결하기](#troubleshooting)
 - [기타 필요한 도움에 대해서..](#more_help)
 
 이 글은 SageMaker를 사용해서 fast.ai 코스의 v3인 _"Practical Deep Learning for Coders"_를 빠르게 시작해볼 수 있게하기 위한 가이드 입니다.
@@ -65,7 +65,7 @@ EU (London) Region | eu-west-2 | [<img src="https://course.fast.ai/images/aws/cf
 
 다시 노트북을 실행하고 싶다면, 코스 또는 fastai 라이브러리를 업데이트한 후 [SageMaker 재개하기](./sagemaker_update.md) 페이지로 가보시기 바랍니다.
 
-## 설치시 발생하는 문제 트러블슈팅 하기 <span id="troubleshooting"></span>
+## 설치시 발생하는 문제 해결하기 <span id="troubleshooting"></span>
 
 - 15분이 경과했음에도 불구하고 노티 이메일을 수신하지 못했다면, 노트북 인스턴스에 fast.ai 라이브러리 및 디펜던시를 설치하는데 문제가 생긴것일 수 있습니다. 트러블슈팅을 하기 위해서, [AWS 콘솔](https://aws.amazon.com/console/)을 열고 **CloudWatch** 링크를 클릭합니다 (검색창에 cloudwatch를 타이핑 해서 찾을 수 있습니다). CloudWatch 콘솔창이 열리고나면, Logs -> /aws/sagemaker/NotebookInstances -> fastai/LifecycleConfigOnStart 또는 fastai/LifecycleConfigOnCreate 의 뎁스로 들어가서 설치 스크립트의 출력결과를 확인하는 것이 가능합니다.
 
