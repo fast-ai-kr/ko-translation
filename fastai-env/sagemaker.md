@@ -45,6 +45,7 @@ EU (Frankfurt) Region | eu-central-1 | [<img src="https://course.fast.ai/images/
 EU (London) Region | eu-west-2 | [<img src="https://course.fast.ai/images/aws/cfn-launch-stack.png"/>](https://eu-west-2.console.aws.amazon.com/cloudformation/home?region=eu-west-2#/stacks/create/review?filter=active&templateURL=https%3A%2F%2Fs3-eu-west-1.amazonaws.com%2Fmmcclean-public-files%2Fsagemaker-fastai-notebook%2Fsagemaker-cfn.yml&stackName=FastaiSageMakerStack)
 
 3. 그러면 아래의 스크린샷과 같이 AWS 자원을 생성하기 위한 템플릿이 나타나는 AWS CloudFormation 웹 콘솔창이 열리게 됩니다. 입력 파라메터들에 대한 내용을 둘러보고난 후, 디폴트 설정을 그대로 사용하거나 필요에 따라서 값을 업데이트 합니다. 그리고나서, **"I acknowledge that AWS CloudFormation might create IAM resources."** 체크박스란을 체크한 후 <kbd>Create</kbd> 버튼을 클랙하여 스택을 생성합니다.
+
 ![스택 생성](https://course.fast.ai/images/sagemaker/create_stack.png)
 
 4. 아래와 같은 생성된 스택을 보여주는 CloudFormation 페이지가 나타날 것입니다. 스택이 **CREATE_COMPLETE** 상태가 되고나면, AWS 웹 콘솔을 열고 상단 바에 있는 Services를 클릭하여 'sagemaker'를 타이핑합니다. 그러고나면, Amazon SageMaker를 클릭합니다.
