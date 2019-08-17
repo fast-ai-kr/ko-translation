@@ -71,7 +71,7 @@
 | 미착수 | [Cretle.ai 설정](https://course.fast.ai/start_crestle.html) | 미정 |
 | 미착수 | [Cretle.ai 작업재개](https://course.fast.ai/update_crestle.html) | 미정 |
 | **완료** | [Kaggle 설정](https://course.fast.ai/start_kaggle.html) | [Kaggle 설정](./fastai-env/kaggle.md) |
-| **착수** | [Kaggle 작업재개](https://course.fast.ai/update_kaggle.html) | 미정 |
+| **완료** | [Kaggle 작업재개](https://course.fast.ai/update_kaggle.html) | [Kaggle 작업재개](./fastai-env/update_kaggle.md) |
 | 미착수 | [easyaiforum.cn 설정](https://course.fast.ai/start_easyaiforum.html) | 미정 |
 | 미착수 | [easyaiforum.cn 작업재개](https://course.fast.ai/update_easyaiforum.html) | 미정 |
 | 미착수 | [GCP 설정](https://course.fast.ai/start_gcp.html) | 미정 |
@@ -80,7 +80,7 @@
 | 미착수 | [Azure 작업재개](https://course.fast.ai/update_azure.html) | 미정 |
 | 미착수 | [Google Colab 설정](https://course.fast.ai/start_colab.html) | 미정 |
 | 미착수 | [Google Colab 작업재개](https://course.fast.ai/update_colab.html) | 미정 |
-| **착수** | [SageMaker 설정](https://course.fast.ai/start_sagemaker.html) | 미정 
+| **완료** | [SageMaker 설정](https://course.fast.ai/start_sagemaker.html) | [SageMaker 설정](./fastai-env/sagemaker.md) | 
 | 미착수 | [SageMaker 작업재개](https://course.fast.ai/update_sagemaker.html) | 미정 |
 | 미착수 | [SageMaker 배포](https://course.fast.ai/deployment_amzn_sagemaker.html) | 미정 |
 | 미착수 | [AWS EC2 설정](https://course.fast.ai/start_aws.html) | 미정 |
