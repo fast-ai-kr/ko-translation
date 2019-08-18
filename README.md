@@ -119,8 +119,7 @@
 | ------ | -------------------------------------------------------------------------------------------------------- | ------ |
 | **완료** | [gi2ds - Google Image Search 2 Dataset](https://github.com/toffebjorkskog/ml-tools/blob/master/gi2ds.md) | [gi2ds - Google Image Search 2 Dataset](https://github.com/fast-ai-kr/ko-translation/blob/master/tools/gi2ds.md)   |
 | **완료** | [fastec2: AWS computer management for regular folks](https://www.fast.ai/2019/02/15/fastec2/) | [fastec2: 평범한 사람들을 위한 AWS 컴퓨터 관리](https://github.com/fast-ai-kr/ko-translation/blob/master/tools/fastec2.md)   |
-| **완료** | [fastec2 script: Running and monitoring long-running tasks](https://www.fast.ai/2019/02/15/fastec2-script/) | [fastec2 script: 오랫동안-수행되는 작업을 실행하고 모니터링 하는것
-](https://github.com/fast-ai-kr/ko-translation/blob/master/tools/fastec2-script.md)   |
+| **완료** | [fastec2 script: Running and monitoring long-running tasks](https://www.fast.ai/2019/02/15/fastec2-script/) | [fastec2 script: 오랫동안-수행되는 작업을 실행하고 모니터링 하는것](https://github.com/fast-ai-kr/ko-translation/blob/master/tools/fastec2-script.md)   |
 
 
 ## 기타 <span id="others"></span>
