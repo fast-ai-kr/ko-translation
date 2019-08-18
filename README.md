@@ -67,7 +67,7 @@
 | 현황   | 원글                                                                                                                             | 번역글 |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------- | ------ |
 | 미착수 | [High Performance Numeric Programming with Swift: Explorations and Reflections](https://www.fast.ai/2019/01/10/swift-numerics/) | 미정 |
-| 미착수 | [fast.ai Embracing Swift for Deep Learning](https://www.fast.ai/2019/03/06/fastai-swift/) | 미정  |
+| **완료** | [fast.ai Embracing Swift for Deep Learning](https://www.fast.ai/2019/03/06/fastai-swift/) | [딥러닝에 Swift를 도입하는 fast.ai](https://github.com/fast-ai-kr/ko-translation/blob/master/fastai-common/fastai-swift.md)  |
 | 미착수 | [C++11, random distributions, and Swift](https://www.fast.ai/2019/01/13/swift-random/) | 미정  |
 
 
