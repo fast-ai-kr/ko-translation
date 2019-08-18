@@ -29,7 +29,7 @@ S4TF는 매우 시기상조 입니다. 모든 딥러닝 프로젝트를 Swift로
 
 작년 PyTorch 데브서밋에서, 저는 Soumith Chintala, Yangqing Jia, Noah Goodman, Chris Lattner와 함께 [패널](https://youtu.be/HnLNPHiyBBQ?t=4826)에 참가했었습니다. 패널 토의에서, 저는 이렇게 말했습니다: _"Python을 제외해고, PyTorch의 모든것이 마음에 듭니다."_. 그리고 Soumith에게 _"언젠가 'SwifTorch'를 마주할날이 올까요?"_ 질문했었습니다. 그 당시에는 제가 Swift에 대해서 이렇게 빨리 스스로 작업을 하게될것 이라는것을 몰랐었죠!
 
-# 그러면, 이제부터 무엇을 해야하나?
+## 그러면, 이제부터 무엇을 해야하나?
 
 결국에는 Python으로 작성된것들이 아래에 열거된 목록의 하나 또는 여러개를 다뤄야만 합니다:
 
