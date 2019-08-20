@@ -37,6 +37,7 @@
 
 | 현황   | 원글                                                                                                                             | 번역글 |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| **완료** | [Fastai v0.7 install issues thread + 경험](https://forums.fast.ai/t/fastai-v0-7-install-issues-thread/24652)                     | [강의노트 실행을 위한 환경 설정](https://github.com/jehyunlee/texts/blob/master/notes_Hiromi_Suenaga/00_setting.md)   |
 | 미착수 | [Introduction to Random Forest](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-1-84a1dc2b5236)                     | 미정   |
 | 미착수 | [Random Forest Deep Dive](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-2-d9aebd7dd0b0)                           | 미정   |
 | 미착수 | [Performance, Validation, and Model Interpretation](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-3-fa4065d8cb1e) | 미정   |
@@ -119,7 +120,7 @@
 | ------ | -------------------------------------------------------------------------------------------------------- | ------ |
 | **완료** | [gi2ds - Google Image Search 2 Dataset](https://github.com/toffebjorkskog/ml-tools/blob/master/gi2ds.md) | [gi2ds - Google Image Search 2 Dataset](https://github.com/fast-ai-kr/ko-translation/blob/master/tools/gi2ds.md)   |
 | **완료** | [fastec2: AWS computer management for regular folks](https://www.fast.ai/2019/02/15/fastec2/) | [fastec2: 평범한 사람들을 위한 AWS 컴퓨터 관리](https://github.com/fast-ai-kr/ko-translation/blob/master/tools/fastec2.md)   |
-| **완료** | [fastec2 script: Running and monitoring long-running tasks](https://www.fast.ai/2019/02/15/fastec2-script/) | [fastec2 script: 오랫동안-수행되는 작업을 실행하고 모니터링 하는것](https://github.com/fast-ai-kr/ko-translation/blob/master/tools/fastec2-script.md)   |
+| **완료** | [fastec2 script: Running and monitoring long-running tasks](https://www.fast.ai/2019/02/15/fastec2-script/) | [fastec2 script: 오랫동안-수행되는 작업을 실행하고 모니터링 하기](https://github.com/fast-ai-kr/ko-translation/blob/master/tools/fastec2-script.md)   |
 
 
 ## 기타 <span id="others"></span>
