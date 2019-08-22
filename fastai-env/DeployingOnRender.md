@@ -17,6 +17,7 @@
 
 
 ![render-logol](https://course.fast.ai/images/render/render-logo.svg  =150x50)
+
 이것은 몇번의 클릭만으로 학습된 모델을 [Render](https://render.com/)에 배포하는 간단한 가이드입니다.  제 2장에서  
 Jeremy’s Bear 이미지를 분류할 때 사용하는 [start repo](https://github.com/render-examples/fastai-v3)에서 나옵니다. 
 
