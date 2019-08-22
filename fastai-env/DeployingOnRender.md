@@ -1,18 +1,18 @@
 ﻿## Render 배포
 
 ## 목차
-* [일회성 설정](#One-time_setup)
+- [일회성 설정](#One-time_setup)
 - [GitHub로 부터 starter app fork하기](#forkstarterapp)
 - [Render 계정 생성](#createaccount)
 
-* [프로젝트 별 설정](#Per-project_setup)
+- [프로젝트 별 설정](#Per-project_setup)
 - [학습된 모델 파일 올리기](#uploadmodel)
 - [app을 모델에 맞게 변경하기](#customizemodel)
 - [변경된 내용을 GitHub에 push와 commit하기](#pushgithub)
 
-* [배포](#deploy)
-* [테스트](#test)
-* [개인PC에서 테스트](#localtest)
+- [배포](#deploy)
+- [테스트](#test)
+- [개인PC에서 테스트](#localtest)
 <br>
 
 
