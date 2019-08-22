@@ -3,10 +3,10 @@
 ## 목차
 
 - [단계별 가이드 : 작업재개](#stepbystep)
- [1. instance 시작하기](#startinginstance)
- [2. 코스 저장소 업데이트](#updaterepo)
- [3. fastai 라이브어리 업데이트](#updatefastai)
- [4. instance 정지](#stoppinginstance)
+-  [1. instance 시작하기](#startinginstance)
+-  [2. 코스 저장소 업데이트](#updaterepo)
+-  [3. fastai 라이브어리 업데이트](#updatefastai)
+-  [4. instance 정지](#stoppinginstance)
 
 
 ## 단계별 가이드 : 작업재개<span id="stepbystep"></span>
