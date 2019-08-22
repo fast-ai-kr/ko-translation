@@ -96,9 +96,9 @@
 | **완료** | [SageMaker 설정](https://course.fast.ai/start_sagemaker.html) | [SageMaker 설정](./fastai-env/sagemaker.md) | 
 | 미착수 | [SageMaker 작업재개](https://course.fast.ai/update_sagemaker.html) | 미정 |
 | 미착수 | [SageMaker 배포](https://course.fast.ai/deployment_amzn_sagemaker.html) | 미정 |
-| 미착수 | [AWS EC2 설정](https://course.fast.ai/start_aws.html) | 미정 |
-| 미착수 | [AWS EC2 작업재개](https://course.fast.ai/update_aws.html) | 미정 |
-| 미착수 | [Render 배포](https://course.fast.ai/deployment_render.html) | 미정 |
+| **완료** | [AWS EC2 설정](https://course.fast.ai/start_aws.html) | [AWS EC2 설정](./fastai-env/AWS_EC2_SETUP.md) |
+| **완료** | [AWS EC2 작업재개](https://course.fast.ai/update_aws.html) | [AWS EC2 작업재개](./fastai-env/AWS_EC2_ReturnToWork.md) |
+| **완료** | [Render 배포](https://course.fast.ai/deployment_render.html) | [Render 배포](./fastai-env/DeployingOnRende.md) |
 | 미착수 | [Google App Engine 배포](https://course.fast.ai/deployment_google_app_engine.html) | 미정 | 
 | 미착수 | [AWS Lambda 배포](https://course.fast.ai/deployment_aws_lambda.html) | 미정 | 
 | 미착수 | [AWS BeanStalk 배포](https://course.fast.ai/deployment_aws_beanstalk.html) | 미정 | 
