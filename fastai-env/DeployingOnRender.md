@@ -11,8 +11,8 @@
 - [변경된 내용을 GitHub에 push와 commit하기](#pushgithub)
 
 * [배포](#deploy)
-- [테스트](#test)
-- [개인PC에서 테스트](#localtest)
+* [테스트](#test)
+* [개인PC에서 테스트](#localtest)
 <br>
 
 
