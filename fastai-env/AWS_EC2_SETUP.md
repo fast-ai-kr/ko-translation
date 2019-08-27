@@ -24,6 +24,7 @@ AWS EC2에서는 [DLAMI](https://aws.amazon.com/machine-learning/amis/)라고하
 ![AWS sing in to the consol](https://course.fast.ai/images/aws/signin.png)
 
 만약 계정이 없으시다면, 'Sign In to the Console' 대신에 'Sign up' 버튼이 보입니다.
+
 ![AWS sing ip](https://course.fast.ai/images/aws/signup.png)
 
 다음으로 로그인 하고자 한다면 당신의 ID(mail)과 비밀번호를 입력하시고, 만약 가입하고 있다면 신용카드에 대한 내용을 입력해야 합니다. instace를 사용에 대한 요금이 등록한 신용카드로 청구가 됩니다.( 만약 free credit이 있다면 그것을 넘기전에는 요금이 청구되지 않습니다).  또한 당신의 신원을 확인하기 위해 통화가능한 전화번호를 제공해야 한다는 점에 유의하십시오.
@@ -31,13 +32,17 @@ AWS EC2에서는 [DLAMI](https://aws.amazon.com/machine-learning/amis/)라고하
 ## 단계 2 : 서비스 제한 설정<span id="RequestServicelimit"></span>
 방금 계정을 생성한 경우 본 코스에 필요한 instance 유형의 제한을 요청하십시오.(기본값 : 0)
 먼저 'Services'를 클릭한 다음 'EC2'를 클릭하십시오.
+
 ![ClickEC2](https://course.fast.ai/images/aws/ec2.png)
+
 그런 다음 왼쪽 창에서 Limits를 선택한 다음 p2.xlarge를 찾을 때까지 목록을 찾아 내려가세요. limit가 한개 또는 그이상이라면 이번단계를 건너 뛰어도 됩니다. 그것이 아니라면 그렇지 않으면 'Request limit increase'을 클릭 하세요.
 
 ![setlimit](https://course.fast.ai/images/aws/increase_limit.png)
 
 'use case description box'에는 ‘[FastAI] Limit Increase Request’라고 입력하고 선호하는 언어와 연락방법를 선택해주세요. 그리고 'Submit'버튼을 눌려 체출합니다. 그럼 요청한 내용을 검토한다는 응답을 받고 대략 두시간 내에 승인 통지를 받습니다.
+
  ![submit](https://course.fast.ai/images/aws/increase_limit2.png)
+ 
 승인을 기다리는동안 단계3을 진행하세요.
 
 
@@ -53,9 +58,11 @@ cp .ssh/id_rsa.pub /mnt/c/Temp/
 만약 ssh key를 만들었다면, AWS Console로 돌아가서 서비스 제한 증가를 요청한 Region에 있는지 확인하세요.  Console의 웹 주소를 보면 자신위치를 확인 할 수 있습니다. 예를 들어 https://us-west-2.console.aw.amazon.com 는 오리건 지역이고  https://ap-south-1.console.aws.amazon.com/ 는 뭄바이 지역입니다.  화면의 상단 오른쪽 모서리에 username 옆에 있는 드롭박스에서 원하시는 Region을 선택 가능 합니다.
 
 다시 'Services'를 클릭한 다음 'EC2'를 클릭하세요.
+
 ![AWS EC2](https://course.fast.ai/images/aws/ec2.png)
 
 쿼리 바를 통하여 검색도 가능합니다. 왼쪽 메뉴에서 'Key pairs'을 찾은 다음 클릭하세요.
+
 ![key pair](https://course.fast.ai/images/aws/key_pair.png)
 
 새로운 창에서:
@@ -69,15 +76,23 @@ cp .ssh/id_rsa.pub /mnt/c/Temp/
 만약 p2 instance를 승인 받지 못하였다면 마지막 단계에서 진행이 불가능하므로 시작하기전에 조금 기다려야 함을 유의하세요.
 
  AWS Console에 로그인한 다음 쿼리 바에서 'EC2'를 검색을 하거나 'Service'에서 'EC2'를 클릭하세요. 그다음  EC2화면에서 'Launch instance' 버튼을 클릭하세요.
+
  ![Launch instance](https://course.fast.ai/images/aws/launch_instance.png)
+ 
 ‘deep learning’을 검색하여 첫번째 옵션( Deep Learning AMI (Ubuntu) Version 16.0)을 선택하세요. 
+
 ![Deep Learning AMI ](https://course.fast.ai/images/aws/amiubuntu.png)
 
 p2.xlarge'를 찾을 때까지 아래로 스크롤 이동하여 선택하세요. 그리고 ‘Review and Launch’ 버튼을 누르세요.
+
 ![Review and Launch ](https://course.fast.ai/images/aws/p2.png)
+
 마지막으로 'Review' 탭에서 'Launch'버튼을 누르세요.
+
 ![Review tab Launch ](https://course.fast.ai/images/aws/launch.png)
+
 팝업 창의 첫 번째 드롭다운 메뉴에서 2단계에서 생성한 key를  선택한 다음 선택한 private key로 액섹스 할수 있음을 확인하는 체크박스에 체크 해줍니다. 그런 다음 ‘Launch Instance’ 버튼을 클릭 합니다.
+
 ![keypair ](https://course.fast.ai/images/aws/key.png)
 
 
@@ -86,9 +101,11 @@ p2.xlarge'를 찾을 때까지 아래로 스크롤 이동하여 선택하세요.
 다음 창에서 스크롤을 아래로 내려보면 ‘View Instances’버튼을 확일 할 수 있습니다. 클릭해주세요. 'Instance State'에 상태가 'running'이라 보이는 instance가 있음을 확인 할 수 있을 것입니다. Amazon은 instance가 구동되는 시간만큼 요금을 부과하므로 추가 요금을 내지 않으려면 **instance의 사용을 마치면 항상 중지**해야 합니다. 단계 7에서 좀 더 자세히 설명 할것 입니다.
 
 아래에서와 같이 instance의 상태가 주황생으로 나타나는 경우 instance가 준비될 때까지 조금 기다려야 합니다.
+
 ![pending](https://course.fast.ai/images/aws/pending.png)
 
 상태가 초록색으로 바뀌면, IPv4 칼럼에 있는 IP를 복사하세요.
+
  ![running status](https://course.fast.ai/images/aws/pubdns.png)
 
 이제 연결을 해볼 시간입니다! OS의 command line [terminal](https://course.fast.ai/terminal_tutorial_)을 열고 아래의 명령어를 입력하세요.
