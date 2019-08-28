@@ -44,7 +44,7 @@ cd google-app-engine/app
 변경 완료한 App의 폴더를 GitHub로 Push하고 repo의 URL을 복사 합니다.
 
 ## 배포<span id="deploy"></span>
-우선 Google Cloud 대쉬보드를 열어주세요, 그리고 **_Create Project_** 버튼을 클릭한 다음 새 GCP 프로젝트의 이름을 정해 줍니다.  새로운 비용청구를 위한 계정을 생성하거나 기존의 청구 계정을 이용 하여 설정 가능 합니다.  화면은 아래와 같을 것 입니다. 
+우선 Google Cloud 대쉬보드를 열어주세요, 그리고 **_Create Project_** 버튼을 클릭한 다음 새 GCP 프로젝트의 이름을 정해 줍니다. 새로운 비용청구를 위한 계정을 생성하거나 기존의 청구 계정을 이용 하여 설정 가능 합니다. 화면은 아래와 같을 것 입니다. 
 ![new project](https://cdn-images-1.medium.com/max/1440/1*J_JfUCxs-WAfsNJsW_gXjQ.png)
 GCP 프로젝트를 생성 후 GCP 대시보드가 나타날 거에요. 그럼 오른쪽 상단에 있는 [>_] 와 같이 생긴 작은 Activate Cloud Shell 버튼을 클릭하세요.
  ![cloud shell](https://cdn-images-1.medium.com/max/1440/1*X9XC4D-zQLXDTrWPw9csYw.png)
