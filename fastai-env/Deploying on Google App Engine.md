@@ -3,7 +3,7 @@
 ## 목차
 
 -  [배포를 위한 start pack 가져오기](#downloadstarerpack)
--  [프로젝트 별 설정](#per-project_setup)
+-  [프로젝트 설정](#per-project_setup)
 -  [변경한 App GitHub로 업로드](#uploadapp)
 -  [배포](#deploy)
 -  [PC에서 테스트](#localTest)
