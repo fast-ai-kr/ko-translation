@@ -35,7 +35,7 @@ cd google-app-engine/app
 **App을 나의 모델로 변경하기** 
  
  
-  app 폴더에 있는 ``server.py``를 편집기를 통하여 열고 ``model_file_url`` 이 부분을 위에서 복사 해둔 url로 변경해주세요.   같은 파일에서 ``classes = ['black', 'grizzly', 'teddys'] `` 에 부분 클래스 내용을 모델에서 예상하는 것으로 변경하세요.
+  app 폴더에 있는 `server.py`를 편집기를 통하여 열고 `model_file_url` 이 부분을 위에서 복사 해둔 url로 변경해주세요.   같은 파일에서 `classes = ['black', 'grizzly', 'teddys'] ` 에 부분 클래스 내용을 모델에서 예상하는 것으로 변경하세요.
 
 
 
