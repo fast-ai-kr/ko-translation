@@ -1,9 +1,9 @@
 ## 여러분이 박사를 고려하기 전에 알아야 할 것들
 
-제 최근 'Ask-A-Data-Scientist'글은 박사과정을 밣을 것인가에 대한 문제를 다루고 있습니다.
+제 최근 'Ask-A-Data-Scientist'글은 박사과정을 밟을 것인가에 대한 문제를 다루고 있습니다.
 이전 글은 ['Ask-A-Data-Scientist advice'](https://www.fast.ai/topics/#advice) 항목'에서 볼 수 있습니다.
 
-질문 : 저는 머신러닝에 관심이 있는 학부생입니다. 또한 저는 박사학위를 밣는데 있어 약간의 압박을 받고 있어요. 2년정도 업계에 종사하고 나서 다시 학교로 돌아가는 게 괜찮다고 생각하는지요?
+>질문 : 저는 머신러닝에 관심이 있는 학부생입니다. 또한 저는 박사학위를 밣는데 있어 약간의 압박을 받고 있어요. 2년정도 업계에 종사하고 나서 다시 학교로 돌아가는 게 괜찮다고 생각하는지요?
 어떤 조언이라도 해주신다면 대단히 감사할 것 같습니다.
 
 박사학위를 할지 말지를 둘러싼 대화는 종종 성공적으로 박사학위를 마친 사람에게 조언을 구하게 되는 선택편향으로 어려움을 겪습니다. 반면, 박사학위 없이 매혹적이고 최첨단의 일을 하는 많은 사람들은 이러한 주제의 질문을 받을 가능성이 적습니다. 대학원생 사이에서 불균형적으로 높은 우울증이나 박사과정에서의 기회비용과 같은 다른 중요한 요소들은 거의 논의되지 않습니다. 수학 박사학위를 가진 사람으로서, 저는 다른 중요한 기술들을 소홀히 하면서, 좁은 분야에 너무 많은 시간을 보낸 것을 후회하고 있습니다. 일단 제가 현업에 참여하게 되었을 때, 많은 중요한 기술과 경험들을 따라잡는 것처럼 느꼈습니다.
@@ -27,7 +27,7 @@
 방금 막 떠오른 생각으로는, 박사학위가 없으면서도 흥미로운 최첨단 딥러닝 업무를 하는 다음과 같은 사람들이 떠오르네요.(이 목록은 완전한게 아니며, 수 많은 사람들이 더 있습니다.)
 
 - [Chris Olah](http://colah.github.io/) : distill.pub(?????)의 공동편집자, Google Brain의 연구원(대학 학위 없음)
-- [Jeremy Howard](http://www.fast.ai/about/#jeremy) : fast.ai의 공동창립자, Enlitic의 창립자(의약품에 딥러닝을 적용한 첫번째 스타트업), 전(前) 랭킹 1위 캐글러, 캐글러 사장, fastmail과 Optimal Decisions Group의 창립자
+- [Jeremy Howard](http://www.fast.ai/about/#jeremy) : fast.ai의 공동창립자, Enlitic의 창립자(의약품에 딥러닝을 적용한 첫번째 스타트업), 전(前) 랭킹 1위 캐글러, 캐글러 대표, fastmail과 Optimal Decisions Group의 창립자
 - [David Ha](https://ai.google/research/people/105004) : [Sketch-RNN](https://experiments.withgoogle.com/sketch-rnn-demo)낙서의 창시자, Google Brain의 연구원
 - [Smerity](https://smerity.com/articles/articles.html) : 전(前) Salesforce/MetaMind 연구원, [AWD-LSTM](https://github.com/salesforce/awd-lstm-lm)의 창안자, 스타트업 창립자
 - [Pete Warden](https://petewarden.com/) : Google Brain의 연구 엔지니어, 텐서플로우 모바일의 Tech lead *(역자 주 : Tech Lead는 소프트웨어 엔지니어로, 개발 팀을 이끌며 기술 결과물의 품질을 책임진다)*, (구글에 인수된)JetPac의 창립자, 전자책 ["Building Mobile Applications with TensorFlow"](https://www.oreilly.com/library/view/building-mobile-applications/9781491988435/)의 저자
