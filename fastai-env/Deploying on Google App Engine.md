@@ -20,7 +20,7 @@ unzip google-app-engine.zip
 cd google-app-engine/app
 ```
 
-## 프로젝트 별 설정<span id="per-project_setup"></span>
+## 프로젝트 설정<span id="per-project_setup"></span>
 
 **학습된 모델 업로드** 
 
