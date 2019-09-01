@@ -100,7 +100,7 @@
 | **완료** | [AWS EC2 설정](https://course.fast.ai/start_aws.html) | [AWS EC2 설정](./fastai-env/AWS_EC2_SETUP.md) |
 | **완료** | [AWS EC2 작업재개](https://course.fast.ai/update_aws.html) | [AWS EC2 작업재개](./fastai-env/AWS_EC2_ReturnToWork.md) |
 | **완료** | [Render 배포](https://course.fast.ai/deployment_render.html) | [Render 배포](./fastai-env/DeployingOnRender.md) |
-| 미착수 | [Google App Engine 배포](https://course.fast.ai/deployment_google_app_engine.html) | 미정 | 
+| 미착수 | [Google App Engine 배포](https://course.fast.ai/deployment_google_app_engine.html) | [Google App Engine에서 배포 하기](https://github.com/fast-ai-kr/ko-translation/blob/master/fastai-env/Deploying%20on%20Google%20App%20Engine.md) | 
 | 미착수 | [AWS Lambda 배포](https://course.fast.ai/deployment_aws_lambda.html) | 미정 | 
 | 미착수 | [AWS BeanStalk 배포](https://course.fast.ai/deployment_aws_beanstalk.html) | 미정 | 
 | 미착수 | [Azure Function 배포](https://course.fast.ai/deployment_azure_functions.html) | 미정 |
@@ -130,5 +130,5 @@
 | **완료** | [Advice on building a machine learning career and reading research papers by Prof. Andrew Ng](https://blog.usejournal.com/advice-on-building-a-machine-learning-career-and-reading-research-papers-by-prof-andrew-ng-f90ac99a0182) | [논문 읽기와 ML/DL 커리어 경력에 대한 조언 by 앤드류 응](https://media-ai.tistory.com/7) |
 | **완료** | [AI researchers allege that machine learning is alchemy](https://www.sciencemag.org/news/2018/05/ai-researchers-allege-machine-learning-alchemy) | [AI 연구원, 머신러닝이 연금술에 불과하다고 역설](https://github.com/jehyunlee/texts/blob/master/AI_researchers_allege_that_machine_learning_is_alchemy/text.md) |
 | 착수 | [Advice for Better Blog Posts](https://www.fast.ai/2019/05/13/blogging-advice/) | 미정   |
-| 미착수 | [What You Need to Know Before Considering a PhD](https://www.fast.ai/2018/08/27/grad-school/) | 미정  |
-| 미착수 | [AI Ethics Resources](https://www.fast.ai/2018/09/24/ai-ethics-resources/) | 미정  |
+| 미착수 | [What You Need to Know Before Considering a PhD](https://www.fast.ai/2018/08/27/grad-school/) | [여러분이 박사를 고려하기 전에 알아야 할 것들](https://github.com/fast-ai-kr/ko-translation/blob/master/fastai-etc/What%20You%20Need%20to%20Know%20Before%20Considering%20a%20PhD.md) |
+| 미착수 | [AI Ethics Resources](https://www.fast.ai/2018/09/24/ai-ethics-resources/) | [AI 윤리 리소스 모음집](https://github.com/fast-ai-kr/ko-translation/blob/master/fastai-etc/AI%20Ethics%20Resources.md) |
