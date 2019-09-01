@@ -27,7 +27,7 @@
 방금 막 떠오른 생각으로는, 박사학위가 없으면서도 흥미로운 최첨단 딥러닝 업무를 하는 다음과 같은 사람들이 떠오르네요(이 목록은 완전한 게 아니며, 수많은 사람이 더 있습니다).
 
 - [Chris Olah](http://colah.github.io/) : distill.pub의 공동 편집자, Google Brain의 연구원(대학 학위 없음)
-- [Jeremy Howard](http://www.fast.ai/about/#jeremy) : fast.ai의 공동창립자, Enlitic의 창립자(의약품에 딥러닝을 적용한 첫번째 스타트업), 전(前) 랭킹 1위 캐글러, 캐글러 대표, fastmail(맞나요?)과 Optimal Decisions Group의 창립자
+- [Jeremy Howard](http://www.fast.ai/about/#jeremy) : fast.ai의 공동 창립자, Enlitic의 창립자(의약품에 딥러닝을 적용한 첫 번째 스타트업), 전(前) 랭킹 1위 캐글러, 캐글 대표, fastmail과 Optimal Decisions Group의 창립자
 - [David Ha](https://ai.google/research/people/105004) : [Sketch-RNN](https://experiments.withgoogle.com/sketch-rnn-demo)낙서의 창시자, Google Brain의 연구원
 - [Smerity](https://smerity.com/articles/articles.html) : 전(前) Salesforce/MetaMind 연구원, [AWD-LSTM](https://github.com/salesforce/awd-lstm-lm)의 창안자, 스타트업 창립자
 - [Pete Warden](https://petewarden.com/) : Google Brain의 연구 엔지니어, 텐서플로우 모바일의 Tech lead *(역자 주 : Tech Lead는 소프트웨어 엔지니어로, 개발 팀을 이끌며 기술 결과물의 품질을 책임진다)*, (구글에 인수된)JetPac의 창립자, 전자책 ["Building Mobile Applications with TensorFlow"](https://www.oreilly.com/library/view/building-mobile-applications/9781491988435/)의 저자
