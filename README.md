@@ -51,6 +51,7 @@
 | 미착수 | [Embeddings](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-11-7564c3c18bbb)                                       | 미정   |
 | 미착수 | [Complete Rossmann, Ethical Issues](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-12-6c2512e005a3)                | 미정   |
 | 미착수 | [new fast.ai course: A Code-First Introduction to Natural Language Processing](https://www.fast.ai/2019/07/08/fastai-nlp/) | 미정  |
+| 미착수 | [10 New Things I Learnt from fast.ai v3](https://towardsdatascience.com/10-new-things-i-learnt-from-fast-ai-v3-4d79c1f07e33) | 미정 |
 
 
 ## fast.ai가 사용된 프로젝트 소개 <span id="fastai-projects"></span>
@@ -61,6 +62,7 @@
 | 미착수 | [(1/2) Fastai, the new radiology tool](https://medium.com/@pierre_guillou/fastai-the-new-radiology-tool-76f02c1e25bf) | 미정  |
 | 미착수 | [(2/2) Fastai, the new radiology tool](https://medium.com/@pierre_guillou/2-2-fastai-the-new-radiology-tool-9f0b7db7bf91) | 미정  |
 | 미착수 | [How to Quickly Deploy a Computer Vision App](https://towardsdatascience.com/quickly-train-and-deploy-an-ai-computer-vision-app-d34ffa21fdd) | 미정 |
+| 미착수 | [Implementing SPADE using fastai](https://towardsdatascience.com/implementing-spade-using-fastai-6ad86b94030a) | 미정 |
 
 
 ## fast.ai 관련 일반/소식 <span id="fastai-common-news"></span>
@@ -70,6 +72,13 @@
 | **착수** | [High Performance Numeric Programming with Swift: Explorations and Reflections](https://www.fast.ai/2019/01/10/swift-numerics/) | 미정 |
 | **완료** | [fast.ai Embracing Swift for Deep Learning](https://www.fast.ai/2019/03/06/fastai-swift/) | [딥러닝에 Swift를 도입하는 fast.ai](https://github.com/fast-ai-kr/ko-translation/blob/master/fastai-common/fastai-swift.md)  |
 | 미착수 | [C++11, random distributions, and Swift](https://www.fast.ai/2019/01/13/swift-random/) | 미정  |
+| 미착수 | [The new fast.ai research datasets collection, on AWS Open Data](https://www.fast.ai/2018/10/16/aws-datasets/) | 미정 |
+| 미착수 | [fastai v1 for PyTorch: Fast and accurate neural nets using modern best practices](https://www.fast.ai/2018/10/02/fastai-ai/) | 미정 |
+| 미착수 | [Now anyone can train Imagenet in 18 minutes](https://www.fast.ai/2018/08/10/fastai-diu-imagenet/) | 미정 |
+| 미착수 | [Training Imagenet in 3 hours for $25; and CIFAR10 for $0.26](https://www.fast.ai/2018/04/30/dawnbench-fastai/) | 미정 |
+| 미착수 | [What do machine learning practitioners actually do?](https://www.fast.ai/2018/07/12/auto-ml-1/) | 미정 |
+| 미착수 | [An Opinionated Introduction to AutoML and Neural Architecture Search](https://www.fast.ai/2018/07/16/auto-ml2/) | 미정 | 
+| 미착수 | [Google's AutoML: Cutting Through the Hype](https://www.fast.ai/2018/07/23/auto-ml-3/) | 미정 |
 
 
 ## fast.ai 사용 환경 관련 <span id="fastai-environments"></span>
@@ -100,7 +109,7 @@
 | **완료** | [AWS EC2 설정](https://course.fast.ai/start_aws.html) | [AWS EC2 설정](./fastai-env/AWS_EC2_SETUP.md) |
 | **완료** | [AWS EC2 작업재개](https://course.fast.ai/update_aws.html) | [AWS EC2 작업재개](./fastai-env/AWS_EC2_ReturnToWork.md) |
 | **완료** | [Render 배포](https://course.fast.ai/deployment_render.html) | [Render 배포](./fastai-env/DeployingOnRender.md) |
-| 미착수 | [Google App Engine 배포](https://course.fast.ai/deployment_google_app_engine.html) | [Google App Engine에서 배포 하기](https://github.com/fast-ai-kr/ko-translation/blob/master/fastai-env/Deploying%20on%20Google%20App%20Engine.md) | 
+| **완료** | [Google App Engine 배포](https://course.fast.ai/deployment_google_app_engine.html) | [Google App Engine에서 배포 하기](https://github.com/fast-ai-kr/ko-translation/blob/master/fastai-env/Deploying%20on%20Google%20App%20Engine.md) | 
 | 미착수 | [AWS Lambda 배포](https://course.fast.ai/deployment_aws_lambda.html) | 미정 | 
 | 미착수 | [AWS BeanStalk 배포](https://course.fast.ai/deployment_aws_beanstalk.html) | 미정 | 
 | 미착수 | [Azure Function 배포](https://course.fast.ai/deployment_azure_functions.html) | 미정 |
@@ -130,5 +139,8 @@
 | **완료** | [Advice on building a machine learning career and reading research papers by Prof. Andrew Ng](https://blog.usejournal.com/advice-on-building-a-machine-learning-career-and-reading-research-papers-by-prof-andrew-ng-f90ac99a0182) | [논문 읽기와 ML/DL 커리어 경력에 대한 조언 by 앤드류 응](https://media-ai.tistory.com/7) |
 | **완료** | [AI researchers allege that machine learning is alchemy](https://www.sciencemag.org/news/2018/05/ai-researchers-allege-machine-learning-alchemy) | [AI 연구원, 머신러닝이 연금술에 불과하다고 역설](https://github.com/jehyunlee/texts/blob/master/AI_researchers_allege_that_machine_learning_is_alchemy/text.md) |
 | 착수 | [Advice for Better Blog Posts](https://www.fast.ai/2019/05/13/blogging-advice/) | 미정   |
-| 미착수 | [What You Need to Know Before Considering a PhD](https://www.fast.ai/2018/08/27/grad-school/) | [여러분이 박사를 고려하기 전에 알아야 할 것들](https://github.com/fast-ai-kr/ko-translation/blob/master/fastai-etc/What%20You%20Need%20to%20Know%20Before%20Considering%20a%20PhD.md) |
-| 미착수 | [AI Ethics Resources](https://www.fast.ai/2018/09/24/ai-ethics-resources/) | [AI 윤리 리소스 모음집](https://github.com/fast-ai-kr/ko-translation/blob/master/fastai-etc/AI%20Ethics%20Resources.md) |
+| **완료** | [What You Need to Know Before Considering a PhD](https://www.fast.ai/2018/08/27/grad-school/) | [여러분이 박사를 고려하기 전에 알아야 할 것들](https://github.com/fast-ai-kr/ko-translation/blob/master/fastai-etc/What%20You%20Need%20to%20Know%20Before%20Considering%20a%20PhD.md) |
+| **완료** | [AI Ethics Resources](https://www.fast.ai/2018/09/24/ai-ethics-resources/) | [AI 윤리 리소스 모음집](https://github.com/fast-ai-kr/ko-translation/blob/master/fastai-etc/AI%20Ethics%20Resources.md) |
+| 미착수 | [One year of deep learning](https://www.fast.ai/2019/01/02/one-year-of-deep-learning/) | 미정 | 
+| **완료** | [Five Trends to Avoid When Founding a Startup](https://www.fast.ai/2018/01/08/startups/) | [스타트업을 시작할때 피해야 할 5가지 흐름](https://jongjinchoi.com/2018/01/five-trends-to-avoid-when-founding-a-startup/) |
+| 미착수 | [A Discussion about Accessibility in AI at Stanford](https://www.fast.ai/2018/04/10/stanford-salon/) | 미착수 |
