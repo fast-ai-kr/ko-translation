@@ -51,6 +51,7 @@
 | 미착수 | [Embeddings](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-11-7564c3c18bbb)                                       | 미정   |
 | 미착수 | [Complete Rossmann, Ethical Issues](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-12-6c2512e005a3)                | 미정   |
 | 미착수 | [new fast.ai course: A Code-First Introduction to Natural Language Processing](https://www.fast.ai/2019/07/08/fastai-nlp/) | 미정  |
+| 미착수 | [10 New Things I Learnt from fast.ai v3](https://towardsdatascience.com/10-new-things-i-learnt-from-fast-ai-v3-4d79c1f07e33) | 미정 |
 
 
 ## fast.ai가 사용된 프로젝트 소개 <span id="fastai-projects"></span>
