@@ -76,6 +76,9 @@
 | 미착수 | [fastai v1 for PyTorch: Fast and accurate neural nets using modern best practices](https://www.fast.ai/2018/10/02/fastai-ai/) | 미정 |
 | 미착수 | [Now anyone can train Imagenet in 18 minutes](https://www.fast.ai/2018/08/10/fastai-diu-imagenet/) | 미정 |
 | 미착수 | [Training Imagenet in 3 hours for $25; and CIFAR10 for $0.26](https://www.fast.ai/2018/04/30/dawnbench-fastai/) | 미정 |
+| 미착수 | [What do machine learning practitioners actually do?](https://www.fast.ai/2018/07/12/auto-ml-1/) | 미정 |
+| 미착수 | [An Opinionated Introduction to AutoML and Neural Architecture Search](https://www.fast.ai/2018/07/16/auto-ml2/) | 미정 | 
+| 미착수 | [Google's AutoML: Cutting Through the Hype](https://www.fast.ai/2018/07/23/auto-ml-3/) | 미정 |
 
 
 ## fast.ai 사용 환경 관련 <span id="fastai-environments"></span>
