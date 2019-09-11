@@ -3,7 +3,7 @@
 ## 목차
 
 -  [배포를 위한 start pack 가져오기](#downloadstarerpack)
--  [프로젝트 별 설정](#per-project_setup)
+-  [프로젝트 설정](#per-project_setup)
 -  [변경한 App GitHub로 업로드](#uploadapp)
 -  [배포](#deploy)
 -  [PC에서 테스트](#localTest)
@@ -20,14 +20,14 @@ unzip google-app-engine.zip
 cd google-app-engine/app
 ```
 
-## 프로젝트 별 설정<span id="per-project_setup"></span>
+## 프로젝트 설정<span id="per-project_setup"></span>
 
 **학습된 모델 업로드** 
 
   Google Drive 또는 Dropbox와 같은 클라우드 서비스에 학습된 모델 파일을 업로드(예:  stage-2.pth) 하세요. 그리고 파일의 다운로드 링크를 복사하십시오.
-**주의:**  다운로드 링크는 직접 파일이 다운로드를 시작해야합니다. 일반적으로 사용되는 뷰를 제공하는 공유링크와는 다른것 입니다.  필요시 아래의 주소에서 링크를 변경 할 수 있습니다.
+**주의:**  다운로드 링크는 일반적으로 사용되는 뷰를 제공하는 공유링크와는 다른, 파일에 링크가 직접적으로 연결 되어있는 링크([Direct download link](https://en.wikipedia.org/wiki/Direct_download_link))를 말합니다.  필요시 아래의 주소에서 링크를 변경 할 수 있습니다.
 (공유링크 -> 직접 다운로드 링크로 변경  : https://rawdownload.now.sh/)
-만약  배포 테스트만을 원한다면, Jeremy’s 곰 분류 모델이 기본적으로 설정 된 모델을 그래로 사용하면 됩니다.  모델의 가중치 URL은 이미 샘플 App에 기입 되어 있으므로 이 단계를 건너뛸 수 있습니다.
+만약  배포 테스트만을 원한다면, Jeremy’s 곰 분류 모델이 기본적으로 설정 된 모델을 그대로 사용하면 됩니다.  모델의 가중치 URL은 이미 샘플 App에 기입 되어 있으므로 이 단계를 건너뛸 수 있습니다.
 
 
 <br>
@@ -35,7 +35,7 @@ cd google-app-engine/app
 **App을 나의 모델로 변경하기** 
  
  
-  app 폴더에 있는 ``server.py``를 편집기를 통하여 열고 ``model_file_url`` 이 부분을 위에서 복사 해둔 url로 변경해주세요.   같은 파일에서 ``classes = ['black', 'grizzly', 'teddys'] `` 에 부분 클래스 내용을 모델에서 예상하는 것으로 변경하세요.
+  app 폴더에 있는 `server.py`를 편집기를 통하여 열고 `model_file_url` 이 부분을 위에서 복사 해둔 url로 변경해주세요.   같은 파일에서 `classes = ['black', 'grizzly', 'teddys'] ` 에 부분 클래스 내용을 모델에서 예상하는 것으로 변경하세요.
 
 
 
@@ -44,7 +44,7 @@ cd google-app-engine/app
 변경 완료한 App의 폴더를 GitHub로 Push하고 repo의 URL을 복사 합니다.
 
 ## 배포<span id="deploy"></span>
-우선 Google Cloud 대쉬보드를 열어주세요, 그리고 **_Create Project_** 버튼을 클릭한 다음 새 GCP 프로젝트의 이름을 정해 줍니다.  새로운 비용청구를 위한 계정을 생성하거나 기존의 청구 계정을 이용 하여 설정 가능 합니다.  화면은 아래와 같을 것 입니다. 
+우선 Google Cloud 대쉬보드를 열어주세요, 그리고 **_Create Project_** 버튼을 클릭한 다음 새 GCP 프로젝트의 이름을 정해 줍니다. 새로운 비용청구를 위한 계정을 생성하거나 기존의 청구 계정을 이용 하여 설정 가능 합니다. 화면은 아래와 같을 것 입니다. 
 ![new project](https://cdn-images-1.medium.com/max/1440/1*J_JfUCxs-WAfsNJsW_gXjQ.png)
 GCP 프로젝트를 생성 후 GCP 대시보드가 나타날 거에요. 그럼 오른쪽 상단에 있는 [>_] 와 같이 생긴 작은 Activate Cloud Shell 버튼을 클릭하세요.
  ![cloud shell](https://cdn-images-1.medium.com/max/1440/1*X9XC4D-zQLXDTrWPw9csYw.png)
