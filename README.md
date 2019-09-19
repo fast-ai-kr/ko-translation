@@ -110,8 +110,8 @@
 | **완료** | [AWS EC2 작업재개](https://course.fast.ai/update_aws.html) | [AWS EC2 작업재개](./fastai-env/AWS_EC2_ReturnToWork.md) |
 | **완료** | [Render 배포](https://course.fast.ai/deployment_render.html) | [Render 배포](./fastai-env/DeployingOnRender.md) |
 | **완료** | [Google App Engine 배포](https://course.fast.ai/deployment_google_app_engine.html) | [Google App Engine에서 배포 하기](https://github.com/fast-ai-kr/ko-translation/blob/master/fastai-env/Deploying%20on%20Google%20App%20Engine.md) | 
-| 미착수 | [AWS Lambda 배포](https://course.fast.ai/deployment_aws_lambda.html) | 미정 | 
-| 미착수 | [AWS BeanStalk 배포](https://course.fast.ai/deployment_aws_beanstalk.html) | 미정 | 
+| **완료** | [AWS Lambda 배포](https://course.fast.ai/deployment_aws_lambda.html) | [AWS Lambda 배포](https://github.com/fast-ai-kr/ko-translation/blob/master/fastai-env/Deploying_on_AWS_Lambda.md) | 
+| **완료** | [AWS BeanStalk 배포](https://course.fast.ai/deployment_aws_beanstalk.html) | [AWS BeanStalk 배포](https://github.com/fast-ai-kr/ko-translation/blob/master/fastai-env/Deploying_on_AWS_BeanStalk.md) | 
 | 미착수 | [Azure Function 배포](https://course.fast.ai/deployment_azure_functions.html) | 미정 |
 
 
