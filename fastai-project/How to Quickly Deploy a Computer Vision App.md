@@ -160,16 +160,16 @@ localization : 몸에서의 위치. 15가지 값이 있습니다.
 
 2. 여러분의 터미널에서, 로컬 Render 앱 폴더 안에서 아래 명령어로 서버를 실행합니다.
 
-'''python
+```python
 python app/server.py serve
-'''
+```
 
 3. 노트북 셀에서 아래 코드를 입력하고 iframe을 생성하여 실행합니다.
 
-'''python
+```python
 from IPython.display import IFrame
 IFrame(‘http://localhost:5042/', width=’100%’, height=500)
-'''
+```
 셀의 결과창에서 앱이 실행 중인 것을 확인할 수 있습니다.
 
 ![image7](./img/image7.PNG)
