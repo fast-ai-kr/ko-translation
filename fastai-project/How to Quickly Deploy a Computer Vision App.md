@@ -172,7 +172,7 @@ IFrame(‘http://localhost:5042/', width=’100%’, height=500)
 '''
 셀의 결과창에서 앱이 실행 중인 것을 확인할 수 있습니다.
 
-![image7](./img/image7.png)
+![image7](./img/image7.PNG)
 
 놀랍지 않나요? Render는 아주 번지르르합니다. 이제 우리 모델을 개선할 수 있는지 확인해보도록 합시다.
 
@@ -229,7 +229,7 @@ Fastai와 Render는 훌륭한 팀이 됩니다. Fastai는 강력한 성능의 �
 
 ## 데이터와 리소스
 
-[Kaggle의 여기]()에서 Kevin Mader가 맨 처음 올린 이미지와 메타데이터를 볼 수 있습니다. 현재 그 이미지들은 한 폴더에서 이용가능하도록 제가 [Kaggle 이곳](https://www.kaggle.com/discdiver/mnist1000-with-one-image-folder)에 올렸습니다. 제 Colab 노트북의 주소는 [이 곳](https://colab.research.google.com/drive/1y1hZS-nmcA3SBH7tF4uttAGMwNS3z9jx)입니다.
+[여기](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000)에서 Kevin Mader가 맨 처음 올린 이미지와 메타데이터를 볼 수 있습니다. 현재 그 이미지들은 한 폴더에서 이용가능하도록 제가 [이곳](https://www.kaggle.com/discdiver/mnist1000-with-one-image-folder)에 올렸습니다. 제 Colab 노트북의 주소는 [이 곳](https://colab.research.google.com/drive/1y1hZS-nmcA3SBH7tF4uttAGMwNS3z9jx)입니다.
 
 원본 데이터셋을 계속 사용해오던 Kaggle 커널은 [여기](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000/kernels)에 있습니다. 그리고 이 문제에 대해 논의하던 Medium 글도 있습니다. [1편](https://medium.com/intech-conseil-expertise/detect-mole-cancer-with-your-smartphone-using-deep-learning-8afad1efde8a), [2편](https://medium.com/intech-conseil-expertise/detect-mole-cancer-with-your-smartphone-using-deep-learning-8afad1efde8a)
 
