@@ -38,7 +38,7 @@
 | 현황   | 원글                                                                                                                             | 번역글 |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------- | ------ |
 | **완료** | [Fastai v0.7 install issues thread + 경험담](https://forums.fast.ai/t/fastai-v0-7-install-issues-thread/24652)                     | [강의노트 실행을 위한 환경 설정](https://github.com/jehyunlee/texts/blob/master/notes_Hiromi_Suenaga/00_setting.md)   |
-| 미착수 | [Introduction to Random Forest](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-1-84a1dc2b5236)                     | 미정   |
+| 착수 | [Introduction to Random Forest](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-1-84a1dc2b5236)                     | 미정   |
 | 미착수 | [Random Forest Deep Dive](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-2-d9aebd7dd0b0)                           | 미정   |
 | 미착수 | [Performance, Validation, and Model Interpretation](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-3-fa4065d8cb1e) | 미정   |
 | 미착수 | [Feature Importance. Tree Interpreter](https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-4-a536f333b20d)              | 미정   |
