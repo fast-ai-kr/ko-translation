@@ -31,6 +31,7 @@
 - [머신러닝/딥러닝 일반](#ml-dl-common)
 - [유용한 툴](#useful-tools)
 - [기타](#others)
+- [fast.ai 라이브러리 튜토리얼](#fastai-library-tutorials)
 
 
 ## fast.ai 코스 강의노트 <span id="fastai-course-note"></span>
@@ -144,3 +145,13 @@
 | 미착수 | [One year of deep learning](https://www.fast.ai/2019/01/02/one-year-of-deep-learning/) | 미정 | 
 | **완료** | [Five Trends to Avoid When Founding a Startup](https://www.fast.ai/2018/01/08/startups/) | [스타트업을 시작할때 피해야 할 5가지 흐름](https://jongjinchoi.com/2018/01/five-trends-to-avoid-when-founding-a-startup/) |
 | 미착수 | [A Discussion about Accessibility in AI at Stanford](https://www.fast.ai/2018/04/10/stanford-salon/) | 미착수 |
+
+
+## fast.ai 라이브러리 튜토리얼 <span id="fastai-library-tutorials"></span>
+
+| 현황   | 원글                                                                                                     | 번역글 |
+| ------ | -------------------------------------------------------------------------------------------------------- | ------ |
+| 미착수 | [Using the fastai library in computer vision.](https://docs.fast.ai/tutorial.vision.html) | 미착수 |
+| 미착수 | [How to fine-tune a language model and train a classifier](https://docs.fast.ai/tutorial.text.html) | 미착수 |
+| 미착수 | [How to use the tabular application in fastai](https://docs.fast.ai/tutorial.tabular.html) | 미착수 |
+| 미착수 | [Using the fastai library for collaborative filtering.](https://docs.fast.ai/tutorial.collab.html) | 미착수 |
