@@ -151,7 +151,7 @@
 
 | 현황   | 원글                                                                                                     | 번역글 |
 | ------ | -------------------------------------------------------------------------------------------------------- | ------ |
-| 미착수 | [Using the fastai library in computer vision.](https://docs.fast.ai/tutorial.vision.html) | 미착수 |
+| 완료 | [Using the fastai library in computer vision.](https://docs.fast.ai/tutorial.vision.html) | [컴퓨터 비전에 fastai 라이브러리 사용하기](https://github.com/chkang13/fastai-kr/blob/f7c69b5959a3ea2c60678540b3e8863712198679/COMPUTER_VISION.md) |
 | 미착수 | [How to fine-tune a language model and train a classifier](https://docs.fast.ai/tutorial.text.html) | 미착수 |
 | 미착수 | [How to use the tabular application in fastai](https://docs.fast.ai/tutorial.tabular.html) | 미착수 |
 | 미착수 | [Using the fastai library for collaborative filtering.](https://docs.fast.ai/tutorial.collab.html) | 미착수 |
